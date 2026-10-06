@@ -2,11 +2,11 @@
 
 This repository contains practice questions for the Open Training Certification Project. 
 
-Exam Name: Example
+Exam Name: Network +
 
-Exam Version: Example v2026
+Exam Version: ... v2026
 
-Project Status: In Development | Released | Archived  
+Project Status: In Development  
 
 ## How to use 
 This repository is designed to be used with web or mobile app clients, such as: 
