@@ -1,18 +1,18 @@
 {
     "meta": {
-        "topic": "topic-name",
-        "difficulty": "difficulty-level",
-        "description": "Clarifiying infomation about this question"
+        "topic": "OSI Reference Model",
+        "difficulty": "medium",
+        "description": "Tests knowledge of the Network layer, including IP addressing and packet routing."
     },
     "question": 
     [{
-        "text": "question-text",
+        "text": "A network administrator is troubleshooting an issue involving IP addresses and determining how packets should be routed between different networks. Which OSI model layer is primarily responsible for these functions?",
         "options": [
-            "option-1",
-            "option-2",
-            "option-3",
-            "option-4"
+            "Data Link",
+            "Transport",
+            "Network",
+            "Session"
         ],
-        "correctAnswer": "option-1"
+        "correctAnswer": "Network"
     }]
 }
