@@ -1,18 +1,18 @@
 {
     "meta": {
-        "topic": "topic-name",
-        "difficulty": "difficulty-level",
-        "description": "Clarifiying infomation about this question"
+        "topic": "OSI Reference Model",
+        "difficulty": "easy",
+        "description": "Tests knowledge of the Physical Layer and its role in transmitting raw data bits over a physical medium."
     },
     "question": 
     [{
-        "text": "question-text",
+        "text": "What is Layer 1 of the OSI model?",
         "options": [
-            "option-1",
-            "option-2",
-            "option-3",
-            "option-4"
+            "Data Link Layer",
+            "Physical Layer",
+            "Network Layer",
+            "Transport Layer"
         ],
-        "correctAnswer": "option-1"
+        "correctAnswer": "Physical Layer"
     }]
 }
