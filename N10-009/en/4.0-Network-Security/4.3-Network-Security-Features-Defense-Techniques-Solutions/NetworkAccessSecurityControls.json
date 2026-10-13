@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "network-access-security",
+        "difficulty": "medium",
+        "description": "Identifies access enforcement mechanisms.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "Which two controls can help restrict devices or users from gaining unauthorized network access? Select two.",
+            "options": [
+                "Network access control (NAC)",
+                "802.1X port-based access control",
+                "An unrestricted guest VLAN with access to all internal systems",
+                "Disabling authentication on switch management"
+            ],
+            "correctAnswers": [
+                "Network access control (NAC)",
+                "802.1X port-based access control"
+            ]
+        }
+    ]
+}

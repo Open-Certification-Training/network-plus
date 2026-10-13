@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "traceroute",
+        "difficulty": "medium",
+        "description": "Explains how traceroute can help localize path-related problems.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "A user can reach a remote server intermittently. Which tool can help identify the Layer 3 path and the hop where responses stop or latency increases?",
+            "options": [
+                "traceroute or tracert",
+                "ipconfig without any options",
+                "A cable crimper",
+                "A DNS MX record editor"
+            ],
+            "correctAnswers": [
+                "traceroute or tracert"
+            ]
+        }
+    ]
+}

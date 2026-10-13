@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "Network Types",
+        "difficulty": "easy",
+        "description": "Tests distinctions between LAN and WAN.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "Which TWO statements correctly describe common network types? Select two.",
+            "options": [
+                "A LAN typically connects devices within a limited geographic area",
+                "A WAN can connect networks across large geographic distances",
+                "A WAN must use only wireless links",
+                "A LAN always spans multiple countries"
+            ],
+            "correctAnswers": [
+                "A LAN typically connects devices within a limited geographic area",
+                "A WAN can connect networks across large geographic distances"
+            ]
+        }
+    ]
+}

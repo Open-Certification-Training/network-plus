@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "aaa",
+        "difficulty": "easy",
+        "description": "Distinguishes the three AAA functions.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "In the AAA model, which function determines what an authenticated user is permitted to access?",
+            "options": [
+                "Authorization",
+                "Authentication",
+                "Accounting",
+                "Address translation"
+            ],
+            "correctAnswers": [
+                "Authorization"
+            ]
+        }
+    ]
+}

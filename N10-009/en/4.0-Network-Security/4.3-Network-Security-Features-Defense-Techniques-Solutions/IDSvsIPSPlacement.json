@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "ids-and-ips",
+        "difficulty": "medium",
+        "description": "Distinguishes active intrusion prevention from passive detection.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Which system is designed to detect malicious network activity and can be configured to block it inline automatically?",
+            "options": [
+                "Intrusion prevention system (IPS)",
+                "Passive network diagram",
+                "DNS resolver",
+                "Unmanaged hub"
+            ],
+            "correctAnswers": [
+                "Intrusion prevention system (IPS)"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "vlans",
+        "difficulty": "easy",
+        "description": "Tests the purpose of VLAN segmentation.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "What is the primary purpose of placing switch ports into separate VLANs?",
+            "options": [
+                "To create separate Layer 2 broadcast domains",
+                "To increase the maximum length of every copper cable",
+                "To replace the need for IP addressing",
+                "To encrypt all traffic between hosts"
+            ],
+            "correctAnswers": [
+                "To create separate Layer 2 broadcast domains"
+            ]
+        }
+    ]
+}

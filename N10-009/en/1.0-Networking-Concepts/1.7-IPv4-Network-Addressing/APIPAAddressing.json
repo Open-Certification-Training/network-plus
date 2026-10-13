@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "IPv4 Addressing",
+        "difficulty": "medium",
+        "description": "Tests recognition of automatic private IP addressing.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "A Windows endpoint cannot contact its DHCP server and self-assigns an IPv4 address. Which TWO observations are consistent with APIPA? Select two.",
+            "options": [
+                "The address is in the 169.254.0.0/16 range",
+                "The endpoint may have trouble reaching devices beyond its local link",
+                "The address is always a public address assigned by an ISP",
+                "The address proves that DNS is functioning correctly"
+            ],
+            "correctAnswers": [
+                "The address is in the 169.254.0.0/16 range",
+                "The endpoint may have trouble reaching devices beyond its local link"
+            ]
+        }
+    ]
+}

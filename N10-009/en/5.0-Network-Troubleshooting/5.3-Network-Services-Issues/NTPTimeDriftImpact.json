@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "ntp-troubleshooting",
+        "difficulty": "easy",
+        "description": "Identifies time synchronization as the likely service to troubleshoot.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Several network devices have significantly different system times, causing certificate validation and log correlation problems. Which service should be checked?",
+            "options": [
+                "Network Time Protocol (NTP)",
+                "Dynamic Host Configuration Protocol (DHCP)",
+                "Spanning Tree Protocol (STP)",
+                "Address Resolution Protocol (ARP)"
+            ],
+            "correctAnswers": [
+                "Network Time Protocol (NTP)"
+            ]
+        }
+    ]
+}

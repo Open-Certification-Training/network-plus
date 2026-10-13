@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "Network Appliances",
+        "difficulty": "easy",
+        "description": "Tests the primary purpose of a network firewall.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Which network appliance is primarily used to enforce traffic rules by allowing or blocking network connections?",
+            "options": [
+                "Load balancer",
+                "Firewall",
+                "Wireless access point",
+                "Patch panel"
+            ],
+            "correctAnswers": [
+                "Firewall"
+            ]
+        }
+    ]
+}

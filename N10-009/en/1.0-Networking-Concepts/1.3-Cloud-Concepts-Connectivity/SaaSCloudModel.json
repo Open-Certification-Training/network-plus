@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "Cloud Concepts",
+        "difficulty": "easy",
+        "description": "Tests identification of the software-as-a-service model.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "A business accesses its email and collaboration suite through a browser. The provider manages the application and underlying infrastructure. Which cloud service model is this?",
+            "options": [
+                "IaaS",
+                "PaaS",
+                "SaaS",
+                "On-premises hosting"
+            ],
+            "correctAnswers": [
+                "SaaS"
+            ]
+        }
+    ]
+}

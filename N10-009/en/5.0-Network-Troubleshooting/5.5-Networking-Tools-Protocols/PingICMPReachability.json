@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "ping-and-icmp",
+        "difficulty": "easy",
+        "description": "Identifies ping as a basic IP reachability tool.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Which command-line utility commonly uses ICMP echo requests to test basic IP reachability?",
+            "options": [
+                "ping",
+                "nslookup",
+                "netstat",
+                "hostname"
+            ],
+            "correctAnswers": [
+                "ping"
+            ]
+        }
+    ]
+}

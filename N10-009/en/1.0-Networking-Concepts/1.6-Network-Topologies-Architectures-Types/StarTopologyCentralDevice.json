@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "Network Topologies",
+        "difficulty": "easy",
+        "description": "Tests recognition of a star topology.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "In which topology do endpoint devices connect to a central switch or other central device?",
+            "options": [
+                "Bus",
+                "Ring",
+                "Star",
+                "Full mesh"
+            ],
+            "correctAnswers": [
+                "Star"
+            ]
+        }
+    ]
+}

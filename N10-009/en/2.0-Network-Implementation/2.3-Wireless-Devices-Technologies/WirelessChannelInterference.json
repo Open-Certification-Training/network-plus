@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "wireless-channels",
+        "difficulty": "medium",
+        "description": "Applies channel planning to reduce co-channel and adjacent-channel interference.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Users report poor Wi-Fi performance in a crowded office. A survey shows several nearby access points using overlapping 2.4 GHz channels. What is the best first configuration change to investigate?",
+            "options": [
+                "Plan non-overlapping channel assignments for nearby access points",
+                "Disable encryption on every access point",
+                "Set every access point to the same maximum transmit power without testing",
+                "Change all clients to static IPv4 addresses"
+            ],
+            "correctAnswers": [
+                "Plan non-overlapping channel assignments for nearby access points"
+            ]
+        }
+    ]
+}

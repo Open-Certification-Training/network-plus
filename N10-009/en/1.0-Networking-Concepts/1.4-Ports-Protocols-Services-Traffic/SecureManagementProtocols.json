@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "Ports and Protocols",
+        "difficulty": "medium",
+        "description": "Tests recognition of secure remote administration protocols.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "Which TWO protocols are commonly used for secure remote administration or encrypted management? Select two.",
+            "options": [
+                "SSH",
+                "HTTPS",
+                "Telnet",
+                "TFTP"
+            ],
+            "correctAnswers": [
+                "SSH",
+                "HTTPS"
+            ]
+        }
+    ]
+}

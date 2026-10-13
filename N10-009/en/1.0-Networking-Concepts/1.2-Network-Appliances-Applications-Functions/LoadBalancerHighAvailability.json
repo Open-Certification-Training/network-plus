@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "Network Appliances",
+        "difficulty": "medium",
+        "description": "Tests understanding of load balancing across application servers.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "A company runs the same web application on four servers. Which appliance can distribute incoming client requests across those servers to improve availability and capacity?",
+            "options": [
+                "Load balancer",
+                "Layer 2 unmanaged switch",
+                "Modem",
+                "Protocol analyzer"
+            ],
+            "correctAnswers": [
+                "Load balancer"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "Cloud Concepts",
+        "difficulty": "medium",
+        "description": "Tests cloud elasticity and scalability concepts.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "Which TWO characteristics are commonly associated with cloud computing? Select two.",
+            "options": [
+                "Resources can be provisioned on demand",
+                "Capacity can be scaled up or down as needs change",
+                "All cloud resources must be hosted inside the customer’s office",
+                "Cloud services cannot be accessed over a network"
+            ],
+            "correctAnswers": [
+                "Resources can be provisioned on demand",
+                "Capacity can be scaled up or down as needs change"
+            ]
+        }
+    ]
+}

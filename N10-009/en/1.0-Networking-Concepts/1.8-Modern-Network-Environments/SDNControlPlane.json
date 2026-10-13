@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "Modern Network Environments",
+        "difficulty": "medium",
+        "description": "Tests the role of the control plane in software-defined networking.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "In software-defined networking (SDN), what is a key role of the control plane?",
+            "options": [
+                "Forwarding electrical signals over copper cable",
+                "Making network decisions and directing forwarding behavior",
+                "Providing physical rack mounting",
+                "Converting domain names into IP addresses only"
+            ],
+            "correctAnswers": [
+                "Making network decisions and directing forwarding behavior"
+            ]
+        }
+    ]
+}

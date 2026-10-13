@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "verification-and-documentation",
+        "difficulty": "medium",
+        "description": "Tests verification and documentation after remediation.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "A technician fixes intermittent connectivity by replacing a damaged patch cable. What should happen next before closing the ticket?",
+            "options": [
+                "Verify normal operation and document the cause, solution, and relevant findings",
+                "Assume the issue is resolved and discard all notes",
+                "Make additional unrelated changes to the switch",
+                "Delete the incident record"
+            ],
+            "correctAnswers": [
+                "Verify normal operation and document the cause, solution, and relevant findings"
+            ]
+        }
+    ]
+}

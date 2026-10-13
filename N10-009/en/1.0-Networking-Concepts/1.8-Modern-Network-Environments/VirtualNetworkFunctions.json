@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "Modern Network Environments",
+        "difficulty": "medium",
+        "description": "Tests network virtualization concepts.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "What is a common benefit of network function virtualization (NFV)?",
+            "options": [
+                "Network functions can run as software on virtualized or general-purpose infrastructure",
+                "Every network function requires a dedicated proprietary appliance",
+                "It replaces the need for IP addressing",
+                "It prevents administrators from automating network changes"
+            ],
+            "correctAnswers": [
+                "Network functions can run as software on virtualized or general-purpose infrastructure"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "Transceivers",
+        "difficulty": "medium",
+        "description": "Tests matching transceiver media to fiber links.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "Which TWO factors should be checked when selecting a transceiver for a fiber link? Select two.",
+            "options": [
+                "Whether the transceiver matches the fiber type and supported wavelength",
+                "Whether the transceiver supports the required data rate and connector/interface",
+                "The color of the switch chassis",
+                "The subnet mask assigned to the remote host"
+            ],
+            "correctAnswers": [
+                "Whether the transceiver matches the fiber type and supported wavelength",
+                "Whether the transceiver supports the required data rate and connector/interface"
+            ]
+        }
+    ]
+}

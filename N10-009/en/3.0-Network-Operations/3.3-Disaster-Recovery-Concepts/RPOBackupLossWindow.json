@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "rpo",
+        "difficulty": "medium",
+        "description": "Tests the meaning of recovery point objective.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "A database has an RPO of 15 minutes. After a disaster, what does this requirement primarily limit?",
+            "options": [
+                "The amount of data loss measured in time to approximately 15 minutes of transactions",
+                "The time allowed to restore all services to full operation",
+                "The maximum length of a copper Ethernet cable",
+                "The number of users who can authenticate"
+            ],
+            "correctAnswers": [
+                "The amount of data loss measured in time to approximately 15 minutes of transactions"
+            ]
+        }
+    ]
+}

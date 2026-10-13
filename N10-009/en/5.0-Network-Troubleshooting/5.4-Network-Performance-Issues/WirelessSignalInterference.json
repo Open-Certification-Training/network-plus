@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "wireless-performance",
+        "difficulty": "medium",
+        "description": "Uses the symptom pattern to identify wireless interference.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Wireless users near a microwave oven experience intermittent degradation on a 2.4 GHz network, while wired users are unaffected. Which cause is most likely?",
+            "options": [
+                "Radio-frequency interference",
+                "An IPv4 subnet mask mismatch on every wired host",
+                "A failed optical transceiver on the WAN circuit",
+                "A missing DNS PTR record"
+            ],
+            "correctAnswers": [
+                "Radio-frequency interference"
+            ]
+        }
+    ]
+}

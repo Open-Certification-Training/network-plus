@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "network-troubleshooting-tools",
+        "difficulty": "medium",
+        "description": "Recognizes common command-line tools for name resolution and host configuration.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "Which two tools can help inspect DNS resolution or local TCP/IP configuration on a workstation? Select two.",
+            "options": [
+                "nslookup",
+                "ipconfig",
+                "A tone generator used only to trace an unpowered cable",
+                "A rack elevation diagram"
+            ],
+            "correctAnswers": [
+                "nslookup",
+                "ipconfig"
+            ]
+        }
+    ]
+}

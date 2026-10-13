@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "centralized-authentication",
+        "difficulty": "medium",
+        "description": "Recognizes common centralized AAA protocols.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "A company is evaluating centralized authentication protocols for network access and device administration. Select two protocols commonly associated with AAA.",
+            "options": [
+                "RADIUS",
+                "TACACS+",
+                "ARP",
+                "ICMP"
+            ],
+            "correctAnswers": [
+                "RADIUS",
+                "TACACS+"
+            ]
+        }
+    ]
+}

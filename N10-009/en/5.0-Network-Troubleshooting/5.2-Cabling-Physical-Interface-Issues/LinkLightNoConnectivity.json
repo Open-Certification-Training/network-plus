@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "physical-layer-troubleshooting",
+        "difficulty": "medium",
+        "description": "Connects physical symptoms to a likely cable fault.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "A workstation has no network connectivity. The switch port shows no link light, and the cable is visibly damaged. What is the most appropriate first corrective step?",
+            "options": [
+                "Replace the damaged cable with a known-good cable of the correct type",
+                "Change the DNS server address",
+                "Reconfigure the user's email client",
+                "Replace the router's routing protocol"
+            ],
+            "correctAnswers": [
+                "Replace the damaged cable with a known-good cable of the correct type"
+            ]
+        }
+    ]
+}

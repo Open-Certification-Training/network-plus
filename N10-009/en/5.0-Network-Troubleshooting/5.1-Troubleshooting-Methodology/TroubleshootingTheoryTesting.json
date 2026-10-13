@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "hypothesis-testing",
+        "difficulty": "medium",
+        "description": "Applies theory testing and corrective action in troubleshooting.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "After identifying a likely cause of a network fault, which two actions are appropriate parts of testing the theory and resolving the issue? Select two.",
+            "options": [
+                "Test the theory in a controlled way when possible",
+                "Plan and implement an appropriate corrective action after confirming the cause",
+                "Change several unrelated settings at once without recording them",
+                "Skip verification after applying a fix"
+            ],
+            "correctAnswers": [
+                "Test the theory in a controlled way when possible",
+                "Plan and implement an appropriate corrective action after confirming the cause"
+            ]
+        }
+    ]
+}

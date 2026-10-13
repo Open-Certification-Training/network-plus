@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "performance-baselines",
+        "difficulty": "medium",
+        "description": "Explains how baselines help identify deviations.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "A link usually operates at 25% utilization, but today it remains at 95% during normal business hours. Which monitoring practice helps determine whether this is abnormal?",
+            "options": [
+                "Compare current measurements with an established performance baseline",
+                "Replace the router before collecting any more data",
+                "Assume high utilization always indicates a cable fault",
+                "Clear all logs to establish a new baseline"
+            ],
+            "correctAnswers": [
+                "Compare current measurements with an established performance baseline"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "Transmission Media",
+        "difficulty": "easy",
+        "description": "Tests the typical use of single-mode fiber.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Which cabling medium is generally best suited for high-bandwidth links over long distances between buildings or campuses?",
+            "options": [
+                "Cat 5e UTP",
+                "Single-mode fiber",
+                "Coaxial patch cable",
+                "RJ11 telephone cable"
+            ],
+            "correctAnswers": [
+                "Single-mode fiber"
+            ]
+        }
+    ]
+}

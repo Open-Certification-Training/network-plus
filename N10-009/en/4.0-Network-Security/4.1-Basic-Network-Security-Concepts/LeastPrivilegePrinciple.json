@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "least-privilege",
+        "difficulty": "easy",
+        "description": "Tests the principle of least privilege.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Which security principle gives a user or service only the permissions needed to perform its assigned tasks?",
+            "options": [
+                "Least privilege",
+                "Implicit trust",
+                "Open access",
+                "Maximum privilege"
+            ],
+            "correctAnswers": [
+                "Least privilege"
+            ]
+        }
+    ]
+}

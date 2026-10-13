@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "Modern Network Environments",
+        "difficulty": "hard",
+        "description": "Tests recognition of automation and infrastructure-as-code benefits.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "Which TWO practices can improve consistency when managing modern network environments? Select two.",
+            "options": [
+                "Using automation to apply repeatable configuration changes",
+                "Managing infrastructure configuration as version-controlled code",
+                "Making every change manually without documentation",
+                "Disabling monitoring to reduce management overhead"
+            ],
+            "correctAnswers": [
+                "Using automation to apply repeatable configuration changes",
+                "Managing infrastructure configuration as version-controlled code"
+            ]
+        }
+    ]
+}

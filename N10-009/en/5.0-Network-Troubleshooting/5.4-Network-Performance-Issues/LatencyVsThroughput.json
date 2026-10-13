@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "latency-and-throughput",
+        "difficulty": "easy",
+        "description": "Distinguishes latency from throughput.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Which metric measures the time it takes for data to travel from a source to a destination?",
+            "options": [
+                "Latency",
+                "Throughput",
+                "Signal-to-noise ratio",
+                "Address lease duration"
+            ],
+            "correctAnswers": [
+                "Latency"
+            ]
+        }
+    ]
+}

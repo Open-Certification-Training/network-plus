@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "congestion",
+        "difficulty": "medium",
+        "description": "Relates saturated links and packet drops to congestion.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "Users report slow transfers during peak hours, and monitoring shows saturated uplinks with packet drops. Select two likely contributors or effects.",
+            "options": [
+                "Network congestion",
+                "Queue drops caused by overloaded links",
+                "An improvement in available bandwidth",
+                "A guarantee that DNS is the only fault"
+            ],
+            "correctAnswers": [
+                "Network congestion",
+                "Queue drops caused by overloaded links"
+            ]
+        }
+    ]
+}

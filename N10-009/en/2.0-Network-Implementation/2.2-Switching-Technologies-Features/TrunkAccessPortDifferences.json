@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "switchport-modes",
+        "difficulty": "medium",
+        "description": "Compares access and trunk port behavior.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "A switch connects to an IP phone and a workstation, while another switch link must carry traffic for multiple VLANs. Select two accurate statements.",
+            "options": [
+                "An access port normally carries traffic for one data VLAN",
+                "A trunk can carry traffic for multiple VLANs",
+                "A trunk port can never use VLAN tags",
+                "An access port automatically routes between VLANs"
+            ],
+            "correctAnswers": [
+                "An access port normally carries traffic for one data VLAN",
+                "A trunk can carry traffic for multiple VLANs"
+            ]
+        }
+    ]
+}

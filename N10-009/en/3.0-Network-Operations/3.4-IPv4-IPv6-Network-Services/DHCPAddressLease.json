@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "dhcp",
+        "difficulty": "easy",
+        "description": "Identifies DHCP's role in host configuration.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Which service automatically provides hosts with IP configuration such as an address, subnet mask, gateway, and DNS server?",
+            "options": [
+                "DHCP",
+                "DNS",
+                "NTP",
+                "SSH"
+            ],
+            "correctAnswers": [
+                "DHCP"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "Ports and Protocols",
+        "difficulty": "easy",
+        "description": "Tests knowledge of the standard HTTPS port.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Which TCP port is commonly used by HTTPS?",
+            "options": [
+                "21",
+                "53",
+                "80",
+                "443"
+            ],
+            "correctAnswers": [
+                "443"
+            ]
+        }
+    ]
+}

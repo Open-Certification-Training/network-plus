@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "OSI Reference Model",
+        "difficulty": "medium",
+        "description": "Tests understanding of common Data Link layer responsibilities.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "Which TWO functions are commonly associated with the Data Link layer (Layer 2) of the OSI model? Select two.",
+            "options": [
+                "Using MAC addresses to identify interfaces on a local link",
+                "Encapsulating network-layer packets into frames",
+                "Selecting routes between separate IP networks",
+                "Establishing end-to-end TCP connections"
+            ],
+            "correctAnswers": [
+                "Using MAC addresses to identify interfaces on a local link",
+                "Encapsulating network-layer packets into frames"
+            ]
+        }
+    ]
+}

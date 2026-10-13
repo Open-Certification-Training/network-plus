@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "ddos",
+        "difficulty": "easy",
+        "description": "Identifies a distributed denial-of-service attack.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "A public service becomes unavailable because a large number of compromised devices flood it with traffic. Which attack best describes this event?",
+            "options": [
+                "Distributed denial-of-service (DDoS)",
+                "Password hashing",
+                "VLAN tagging",
+                "DNS caching"
+            ],
+            "correctAnswers": [
+                "Distributed denial-of-service (DDoS)"
+            ]
+        }
+    ]
+}

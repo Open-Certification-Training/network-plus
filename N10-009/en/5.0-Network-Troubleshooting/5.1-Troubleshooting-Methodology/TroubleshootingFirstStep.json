@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "troubleshooting-methodology",
+        "difficulty": "easy",
+        "description": "Tests the first step of a structured troubleshooting process.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "A user reports that a network application is unavailable. According to a standard troubleshooting methodology, what should the technician do first?",
+            "options": [
+                "Identify the problem by gathering information and symptoms",
+                "Replace the network switch immediately",
+                "Document a resolution before testing",
+                "Escalate the issue without collecting any details"
+            ],
+            "correctAnswers": [
+                "Identify the problem by gathering information and symptoms"
+            ]
+        }
+    ]
+}

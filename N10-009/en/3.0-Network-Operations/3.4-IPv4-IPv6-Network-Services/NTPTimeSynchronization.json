@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "ntp",
+        "difficulty": "easy",
+        "description": "Identifies Network Time Protocol and its purpose.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Which service helps synchronize clocks on network devices and servers?",
+            "options": [
+                "NTP",
+                "DHCP",
+                "TFTP",
+                "ARP"
+            ],
+            "correctAnswers": [
+                "NTP"
+            ]
+        }
+    ]
+}

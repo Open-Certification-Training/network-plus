@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "network-attacks",
+        "difficulty": "medium",
+        "description": "Recognizes attacks that can enable traffic interception.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "Which two attacks can manipulate address-resolution or local network traffic to intercept communications? Select two.",
+            "options": [
+                "ARP poisoning",
+                "On-path (man-in-the-middle) attack",
+                "Disk defragmentation",
+                "Link aggregation"
+            ],
+            "correctAnswers": [
+                "ARP poisoning",
+                "On-path (man-in-the-middle) attack"
+            ]
+        }
+    ]
+}

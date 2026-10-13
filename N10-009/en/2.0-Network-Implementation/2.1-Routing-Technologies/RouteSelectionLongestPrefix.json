@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "route-selection",
+        "difficulty": "medium",
+        "description": "Tests longest-prefix-match route selection.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "A router has routes to 10.20.0.0/16 and 10.20.8.0/24. A packet is destined for 10.20.8.45. Which route is selected when both routes are otherwise valid?",
+            "options": [
+                "10.20.0.0/16 because it covers more addresses",
+                "10.20.8.0/24 because it is the longest prefix match",
+                "The route with the numerically smallest next-hop address",
+                "Both routes are used for every packet"
+            ],
+            "correctAnswers": [
+                "10.20.8.0/24 because it is the longest prefix match"
+            ]
+        }
+    ]
+}

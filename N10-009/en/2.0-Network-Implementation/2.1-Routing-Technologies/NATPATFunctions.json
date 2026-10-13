@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "nat-pat",
+        "difficulty": "medium",
+        "description": "Distinguishes NAT/PAT from unrelated networking functions.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "A small office router allows many private IPv4 hosts to share one public IPv4 address for outbound connections. Select two technologies or functions that describe this behavior.",
+            "options": [
+                "Network address translation (NAT)",
+                "Port address translation (PAT)",
+                "Spanning Tree Protocol (STP)",
+                "Link-local addressing"
+            ],
+            "correctAnswers": [
+                "Network address translation (NAT)",
+                "Port address translation (PAT)"
+            ]
+        }
+    ]
+}

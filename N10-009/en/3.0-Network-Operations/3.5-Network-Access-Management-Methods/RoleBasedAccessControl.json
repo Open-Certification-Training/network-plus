@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "rbac",
+        "difficulty": "medium",
+        "description": "Applies role-based permissions to network access management.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "An organization wants staff to receive permissions based on their job responsibilities rather than assigning permissions individually to every user. Which access-control model best fits?",
+            "options": [
+                "Role-based access control (RBAC)",
+                "Open access for all authenticated users",
+                "Discretionary access based only on device MAC addresses",
+                "Anonymous access control"
+            ],
+            "correctAnswers": [
+                "Role-based access control (RBAC)"
+            ]
+        }
+    ]
+}

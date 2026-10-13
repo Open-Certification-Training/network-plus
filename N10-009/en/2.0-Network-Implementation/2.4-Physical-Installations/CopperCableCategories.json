@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "copper-cabling",
+        "difficulty": "medium",
+        "description": "Relates cable category to Ethernet performance and distance.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "A technician needs a copper Ethernet cable run that supports 10GBASE-T at up to 100 meters under the appropriate installation conditions. Which cable category is commonly specified for this requirement?",
+            "options": [
+                "Category 6A",
+                "Category 3",
+                "Category 5 without qualification",
+                "Flat telephone cord"
+            ],
+            "correctAnswers": [
+                "Category 6A"
+            ]
+        }
+    ]
+}

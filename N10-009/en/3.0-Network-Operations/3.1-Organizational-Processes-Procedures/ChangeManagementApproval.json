@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "change-management",
+        "difficulty": "medium",
+        "description": "Applies formal change management to a production network.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "A technician plans to update a core switch during business hours. Which process should be followed before making the change?",
+            "options": [
+                "Submit the change for the required review and approval, including impact and rollback planning",
+                "Make the change immediately and document it only if it fails",
+                "Disable monitoring so the change is not interrupted",
+                "Ask an unrelated end user to approve it verbally after completion"
+            ],
+            "correctAnswers": [
+                "Submit the change for the required review and approval, including impact and rollback planning"
+            ]
+        }
+    ]
+}

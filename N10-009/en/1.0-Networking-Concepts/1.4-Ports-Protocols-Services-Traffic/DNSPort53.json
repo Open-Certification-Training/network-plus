@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "Ports and Protocols",
+        "difficulty": "easy",
+        "description": "Tests the standard port associated with DNS queries.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Which port is associated with DNS queries in its traditional operation?",
+            "options": [
+                "22",
+                "25",
+                "53",
+                "3389"
+            ],
+            "correctAnswers": [
+                "53"
+            ]
+        }
+    ]
+}

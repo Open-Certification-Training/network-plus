@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "wireless-security",
+        "difficulty": "medium",
+        "description": "Recognizes modern wireless security options.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "An organization is choosing modern security for its enterprise wireless network. Select two appropriate choices or capabilities.",
+            "options": [
+                "WPA3",
+                "WPA2 with AES/CCMP",
+                "WEP as the preferred modern standard",
+                "An open SSID with no authentication"
+            ],
+            "correctAnswers": [
+                "WPA3",
+                "WPA2 with AES/CCMP"
+            ]
+        }
+    ]
+}

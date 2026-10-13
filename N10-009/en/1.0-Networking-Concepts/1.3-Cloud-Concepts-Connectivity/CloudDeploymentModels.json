@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "Cloud Concepts",
+        "difficulty": "medium",
+        "description": "Tests comparison of common cloud deployment models.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "An organization wants a cloud environment dedicated to its own use, with access restricted to that organization. Which deployment model best fits?",
+            "options": [
+                "Public cloud",
+                "Private cloud",
+                "Community Wi-Fi",
+                "Content delivery network"
+            ],
+            "correctAnswers": [
+                "Private cloud"
+            ]
+        }
+    ]
+}

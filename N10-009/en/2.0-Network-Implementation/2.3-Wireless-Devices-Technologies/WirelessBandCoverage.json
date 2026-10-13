@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "wireless-frequency-bands",
+        "difficulty": "easy",
+        "description": "Compares common Wi-Fi frequency-band characteristics.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Compared with 5 GHz Wi-Fi, 2.4 GHz Wi-Fi generally offers which advantage?",
+            "options": [
+                "Better propagation through obstacles and longer range in many environments",
+                "More non-overlapping channels in every regulatory domain",
+                "Higher maximum throughput in all circumstances",
+                "No susceptibility to interference"
+            ],
+            "correctAnswers": [
+                "Better propagation through obstacles and longer range in many environments"
+            ]
+        }
+    ]
+}

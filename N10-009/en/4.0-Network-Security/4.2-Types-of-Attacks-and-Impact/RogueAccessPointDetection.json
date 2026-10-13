@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "rogue-access-points",
+        "difficulty": "medium",
+        "description": "Identifies the risk posed by unauthorized access points.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "An unauthorized wireless access point is connected to a corporate network without approval. What is this device commonly called?",
+            "options": [
+                "Rogue access point",
+                "Wireless controller",
+                "Authorized mesh node",
+                "Network tap"
+            ],
+            "correctAnswers": [
+                "Rogue access point"
+            ]
+        }
+    ]
+}

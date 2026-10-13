@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "segmentation-and-zero-trust",
+        "difficulty": "medium",
+        "description": "Connects segmentation and zero-trust principles to risk reduction.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "Which two practices align with reducing implicit trust and limiting lateral movement? Select two.",
+            "options": [
+                "Segment sensitive systems from general user networks",
+                "Continuously verify access based on identity and context",
+                "Allow every internal device unrestricted access because it is inside the perimeter",
+                "Use one shared administrator account for all staff"
+            ],
+            "correctAnswers": [
+                "Segment sensitive systems from general user networks",
+                "Continuously verify access based on identity and context"
+            ]
+        }
+    ]
+}

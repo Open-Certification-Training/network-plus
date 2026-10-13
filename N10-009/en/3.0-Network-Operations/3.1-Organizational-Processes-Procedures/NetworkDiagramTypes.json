@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "network-documentation",
+        "difficulty": "easy",
+        "description": "Distinguishes physical network documentation from other records.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Which document is most useful for showing physical device locations, cable runs, and patch-panel connections?",
+            "options": [
+                "Physical network diagram",
+                "Acceptable use policy",
+                "Software license inventory",
+                "Incident severity matrix"
+            ],
+            "correctAnswers": [
+                "Physical network diagram"
+            ]
+        }
+    ]
+}

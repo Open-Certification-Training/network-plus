@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "topic": "Network Appliance Functions",
+        "difficulty": "medium",
+        "description": "Tests recognition of proxy and intrusion detection functions.",
+        "questionType": "multiple-select"
+    },
+    "question": [
+        {
+            "text": "Which TWO functions may be provided by network security appliances? Select two.",
+            "options": [
+                "A proxy can relay client requests and apply content or access policies",
+                "An IDS can detect suspicious traffic and generate alerts",
+                "A patch panel assigns IP addresses to endpoints",
+                "A repeater performs user authentication against a directory"
+            ],
+            "correctAnswers": [
+                "A proxy can relay client requests and apply content or access policies",
+                "An IDS can detect suspicious traffic and generate alerts"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "dhcp-troubleshooting",
+        "difficulty": "medium",
+        "description": "Diagnoses DHCP scope exhaustion.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "New devices cannot obtain IPv4 addresses, while existing clients continue working. The DHCP server reports that every address in its scope is leased. What is the most likely issue?",
+            "options": [
+                "DHCP scope exhaustion",
+                "A spanning-tree loop on every switch",
+                "An incorrect NTP stratum",
+                "A failed DNS MX record"
+            ],
+            "correctAnswers": [
+                "DHCP scope exhaustion"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "cia-triad",
+        "difficulty": "easy",
+        "description": "Applies the confidentiality component of the CIA triad.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "A network security control prevents unauthorized users from reading confidential data. Which element of the CIA triad does it primarily protect?",
+            "options": [
+                "Confidentiality",
+                "Integrity",
+                "Availability",
+                "Nonrepudiation"
+            ],
+            "correctAnswers": [
+                "Confidentiality"
+            ]
+        }
+    ]
+}

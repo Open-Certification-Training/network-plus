@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "topic": "snmp",
+        "difficulty": "easy",
+        "description": "Identifies SNMP as a network-monitoring protocol.",
+        "questionType": "single-choice"
+    },
+    "question": [
+        {
+            "text": "Which protocol is commonly used by a network management system to poll devices for interface counters and operational status?",
+            "options": [
+                "SNMP",
+                "SMTP",
+                "SFTP",
+                "SIP"
+            ],
+            "correctAnswers": [
+                "SNMP"
+            ]
+        }
+    ]
+}
