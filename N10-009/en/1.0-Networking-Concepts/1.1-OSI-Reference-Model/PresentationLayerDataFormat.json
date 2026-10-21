@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "OSI Reference Model",
-        "difficulty": "medium",
-        "description": "Tests recognition of presentation-layer functions such as data translation, formatting, and encryption.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-1.0-1.1-presentation-layer-data-format",
+  "examId": "N10-009",
+  "domainId": "1.0",
+  "objectiveId": "1.1",
+  "topic": "OSI Reference Model",
+  "questionText": "An application needs data to be translated into a standardized format and encrypted before it is presented to the receiving application. Which OSI layer is most closely associated with these functions in the traditional seven-layer model?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Session Layer (Layer 5)"
     },
-    "question": [
-        {
-            "text": "An application needs data to be translated into a standardized format and encrypted before it is presented to the receiving application. Which OSI layer is most closely associated with these functions in the traditional seven-layer model?",
-            "options": [
-                "Session Layer (Layer 5)",
-                "Presentation Layer (Layer 6)",
-                "Network Layer (Layer 3)",
-                "Data Link Layer (Layer 2)"
-            ],
-            "correctAnswers": [
-                "Presentation Layer (Layer 6)"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Presentation Layer (Layer 6)"
+    },
+    {
+      "id": "c",
+      "text": "Network Layer (Layer 3)"
+    },
+    {
+      "id": "d",
+      "text": "Data Link Layer (Layer 2)"
+    }
+  ],
+  "correctAnswers": [
+    "b"
+  ],
+  "difficulty": "medium"
 }

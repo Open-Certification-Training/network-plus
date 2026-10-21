@@ -1,23 +1,31 @@
 {
-    "meta": {
-        "topic": "network-attacks",
-        "difficulty": "medium",
-        "description": "Recognizes attacks that can enable traffic interception.",
-        "questionType": "multiple-select"
+  "questionId": "N10-009-4.0-4.2-common-network-attacks",
+  "examId": "N10-009",
+  "domainId": "4.0",
+  "objectiveId": "4.2",
+  "topic": "network-attacks",
+  "questionText": "Which two attacks can manipulate address-resolution or local network traffic to intercept communications? Select two.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "ARP poisoning"
     },
-    "question": [
-        {
-            "text": "Which two attacks can manipulate address-resolution or local network traffic to intercept communications? Select two.",
-            "options": [
-                "ARP poisoning",
-                "On-path (man-in-the-middle) attack",
-                "Disk defragmentation",
-                "Link aggregation"
-            ],
-            "correctAnswers": [
-                "ARP poisoning",
-                "On-path (man-in-the-middle) attack"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "On-path (man-in-the-middle) attack"
+    },
+    {
+      "id": "c",
+      "text": "Disk defragmentation"
+    },
+    {
+      "id": "d",
+      "text": "Link aggregation"
+    }
+  ],
+  "correctAnswers": [
+    "a",
+    "b"
+  ],
+  "difficulty": "medium"
 }

@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "Transmission Media",
-        "difficulty": "medium",
-        "description": "Tests the impact of electromagnetic interference on copper cabling.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-1.0-1.5-u-t-p-interference",
+  "examId": "N10-009",
+  "domainId": "1.0",
+  "objectiveId": "1.5",
+  "topic": "Transmission Media",
+  "questionText": "A copper Ethernet run near large motors experiences intermittent errors. Which factor is the most likely source of interference?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Electromagnetic interference"
     },
-    "question": [
-        {
-            "text": "A copper Ethernet run near large motors experiences intermittent errors. Which factor is the most likely source of interference?",
-            "options": [
-                "Electromagnetic interference",
-                "A low optical receive level",
-                "Incorrect fiber wavelength",
-                "An expired DNS record"
-            ],
-            "correctAnswers": [
-                "Electromagnetic interference"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "A low optical receive level"
+    },
+    {
+      "id": "c",
+      "text": "Incorrect fiber wavelength"
+    },
+    {
+      "id": "d",
+      "text": "An expired DNS record"
+    }
+  ],
+  "correctAnswers": [
+    "a"
+  ],
+  "difficulty": "medium"
 }

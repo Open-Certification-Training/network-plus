@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "firewalls-and-acls",
-        "difficulty": "easy",
-        "description": "Identifies the purpose of firewall filtering.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-4.0-4.3-firewall-access-control-rules",
+  "examId": "N10-009",
+  "domainId": "4.0",
+  "objectiveId": "4.3",
+  "topic": "firewalls-and-acls",
+  "questionText": "Which control filters network traffic according to configured rules such as source, destination, protocol, or port?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Firewall"
     },
-    "question": [
-        {
-            "text": "Which control filters network traffic according to configured rules such as source, destination, protocol, or port?",
-            "options": [
-                "Firewall",
-                "DHCP relay",
-                "Wireless repeater",
-                "Load balancer health check"
-            ],
-            "correctAnswers": [
-                "Firewall"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "DHCP relay"
+    },
+    {
+      "id": "c",
+      "text": "Wireless repeater"
+    },
+    {
+      "id": "d",
+      "text": "Load balancer health check"
+    }
+  ],
+  "correctAnswers": [
+    "a"
+  ],
+  "difficulty": "easy"
 }

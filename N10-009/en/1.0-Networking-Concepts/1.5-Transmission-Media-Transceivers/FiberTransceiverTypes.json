@@ -1,23 +1,31 @@
 {
-    "meta": {
-        "topic": "Transceivers",
-        "difficulty": "medium",
-        "description": "Tests matching transceiver media to fiber links.",
-        "questionType": "multiple-select"
+  "questionId": "N10-009-1.0-1.5-fiber-transceiver-types",
+  "examId": "N10-009",
+  "domainId": "1.0",
+  "objectiveId": "1.5",
+  "topic": "Transceivers",
+  "questionText": "Which TWO factors should be checked when selecting a transceiver for a fiber link? Select two.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Whether the transceiver matches the fiber type and supported wavelength"
     },
-    "question": [
-        {
-            "text": "Which TWO factors should be checked when selecting a transceiver for a fiber link? Select two.",
-            "options": [
-                "Whether the transceiver matches the fiber type and supported wavelength",
-                "Whether the transceiver supports the required data rate and connector/interface",
-                "The color of the switch chassis",
-                "The subnet mask assigned to the remote host"
-            ],
-            "correctAnswers": [
-                "Whether the transceiver matches the fiber type and supported wavelength",
-                "Whether the transceiver supports the required data rate and connector/interface"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Whether the transceiver supports the required data rate and connector/interface"
+    },
+    {
+      "id": "c",
+      "text": "The color of the switch chassis"
+    },
+    {
+      "id": "d",
+      "text": "The subnet mask assigned to the remote host"
+    }
+  ],
+  "correctAnswers": [
+    "a",
+    "b"
+  ],
+  "difficulty": "medium"
 }

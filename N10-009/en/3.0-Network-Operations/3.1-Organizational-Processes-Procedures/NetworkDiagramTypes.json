@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "network-documentation",
-        "difficulty": "easy",
-        "description": "Distinguishes physical network documentation from other records.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-3.0-3.1-network-diagram-types",
+  "examId": "N10-009",
+  "domainId": "3.0",
+  "objectiveId": "3.1",
+  "topic": "network-documentation",
+  "questionText": "Which document is most useful for showing physical device locations, cable runs, and patch-panel connections?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Physical network diagram"
     },
-    "question": [
-        {
-            "text": "Which document is most useful for showing physical device locations, cable runs, and patch-panel connections?",
-            "options": [
-                "Physical network diagram",
-                "Acceptable use policy",
-                "Software license inventory",
-                "Incident severity matrix"
-            ],
-            "correctAnswers": [
-                "Physical network diagram"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Acceptable use policy"
+    },
+    {
+      "id": "c",
+      "text": "Software license inventory"
+    },
+    {
+      "id": "d",
+      "text": "Incident severity matrix"
+    }
+  ],
+  "correctAnswers": [
+    "a"
+  ],
+  "difficulty": "easy"
 }

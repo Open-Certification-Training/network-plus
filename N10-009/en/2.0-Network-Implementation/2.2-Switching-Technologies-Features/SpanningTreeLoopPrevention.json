@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "spanning-tree",
-        "difficulty": "medium",
-        "description": "Identifies STP's role in preventing Layer 2 loops.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-2.0-2.2-spanning-tree-loop-prevention",
+  "examId": "N10-009",
+  "domainId": "2.0",
+  "objectiveId": "2.2",
+  "topic": "spanning-tree",
+  "questionText": "Two switches have redundant Layer 2 links. Which technology helps prevent a switching loop while retaining a backup path?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Spanning Tree Protocol (STP)"
     },
-    "question": [
-        {
-            "text": "Two switches have redundant Layer 2 links. Which technology helps prevent a switching loop while retaining a backup path?",
-            "options": [
-                "Spanning Tree Protocol (STP)",
-                "Dynamic Host Configuration Protocol (DHCP)",
-                "Network Time Protocol (NTP)",
-                "Address Resolution Protocol (ARP)"
-            ],
-            "correctAnswers": [
-                "Spanning Tree Protocol (STP)"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Dynamic Host Configuration Protocol (DHCP)"
+    },
+    {
+      "id": "c",
+      "text": "Network Time Protocol (NTP)"
+    },
+    {
+      "id": "d",
+      "text": "Address Resolution Protocol (ARP)"
+    }
+  ],
+  "correctAnswers": [
+    "a"
+  ],
+  "difficulty": "medium"
 }

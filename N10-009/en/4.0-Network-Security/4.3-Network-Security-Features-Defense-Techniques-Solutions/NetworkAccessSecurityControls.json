@@ -1,23 +1,31 @@
 {
-    "meta": {
-        "topic": "network-access-security",
-        "difficulty": "medium",
-        "description": "Identifies access enforcement mechanisms.",
-        "questionType": "multiple-select"
+  "questionId": "N10-009-4.0-4.3-network-access-security-controls",
+  "examId": "N10-009",
+  "domainId": "4.0",
+  "objectiveId": "4.3",
+  "topic": "network-access-security",
+  "questionText": "Which two controls can help restrict devices or users from gaining unauthorized network access? Select two.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Network access control (NAC)"
     },
-    "question": [
-        {
-            "text": "Which two controls can help restrict devices or users from gaining unauthorized network access? Select two.",
-            "options": [
-                "Network access control (NAC)",
-                "802.1X port-based access control",
-                "An unrestricted guest VLAN with access to all internal systems",
-                "Disabling authentication on switch management"
-            ],
-            "correctAnswers": [
-                "Network access control (NAC)",
-                "802.1X port-based access control"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "802.1X port-based access control"
+    },
+    {
+      "id": "c",
+      "text": "An unrestricted guest VLAN with access to all internal systems"
+    },
+    {
+      "id": "d",
+      "text": "Disabling authentication on switch management"
+    }
+  ],
+  "correctAnswers": [
+    "a",
+    "b"
+  ],
+  "difficulty": "medium"
 }

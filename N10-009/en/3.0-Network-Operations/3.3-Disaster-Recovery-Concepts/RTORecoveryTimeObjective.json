@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "rto",
-        "difficulty": "easy",
-        "description": "Distinguishes recovery time objectives from other metrics.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-3.0-3.3-r-t-o-recovery-time-objective",
+  "examId": "N10-009",
+  "domainId": "3.0",
+  "objectiveId": "3.3",
+  "topic": "rto",
+  "questionText": "A business requires a critical network service to be restored within two hours after an outage. Which metric expresses this maximum targeted restoration time?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Recovery time objective (RTO)"
     },
-    "question": [
-        {
-            "text": "A business requires a critical network service to be restored within two hours after an outage. Which metric expresses this maximum targeted restoration time?",
-            "options": [
-                "Recovery time objective (RTO)",
-                "Recovery point objective (RPO)",
-                "Mean time between failures (MTBF)",
-                "Service set identifier (SSID)"
-            ],
-            "correctAnswers": [
-                "Recovery time objective (RTO)"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Recovery point objective (RPO)"
+    },
+    {
+      "id": "c",
+      "text": "Mean time between failures (MTBF)"
+    },
+    {
+      "id": "d",
+      "text": "Service set identifier (SSID)"
+    }
+  ],
+  "correctAnswers": [
+    "a"
+  ],
+  "difficulty": "easy"
 }

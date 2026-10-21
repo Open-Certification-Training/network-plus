@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "Network Topologies",
-        "difficulty": "medium",
-        "description": "Tests the resilience benefit of mesh connectivity.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-1.0-1.6-mesh-topology-redundancy",
+  "examId": "N10-009",
+  "domainId": "1.0",
+  "objectiveId": "1.6",
+  "topic": "Network Topologies",
+  "questionText": "Why is a full mesh topology often considered highly resilient?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "It requires only one shared cable for every device"
     },
-    "question": [
-        {
-            "text": "Why is a full mesh topology often considered highly resilient?",
-            "options": [
-                "It requires only one shared cable for every device",
-                "Multiple redundant paths can exist between nodes",
-                "It eliminates the need for routing",
-                "It guarantees that no link can ever fail"
-            ],
-            "correctAnswers": [
-                "Multiple redundant paths can exist between nodes"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Multiple redundant paths can exist between nodes"
+    },
+    {
+      "id": "c",
+      "text": "It eliminates the need for routing"
+    },
+    {
+      "id": "d",
+      "text": "It guarantees that no link can ever fail"
+    }
+  ],
+  "correctAnswers": [
+    "b"
+  ],
+  "difficulty": "medium"
 }

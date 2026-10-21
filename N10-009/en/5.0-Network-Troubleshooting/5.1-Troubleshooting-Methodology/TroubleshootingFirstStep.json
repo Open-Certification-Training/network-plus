@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "troubleshooting-methodology",
-        "difficulty": "easy",
-        "description": "Tests the first step of a structured troubleshooting process.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-5.0-5.1-troubleshooting-first-step",
+  "examId": "N10-009",
+  "domainId": "5.0",
+  "objectiveId": "5.1",
+  "topic": "troubleshooting-methodology",
+  "questionText": "A user reports that a network application is unavailable. According to a standard troubleshooting methodology, what should the technician do first?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Identify the problem by gathering information and symptoms"
     },
-    "question": [
-        {
-            "text": "A user reports that a network application is unavailable. According to a standard troubleshooting methodology, what should the technician do first?",
-            "options": [
-                "Identify the problem by gathering information and symptoms",
-                "Replace the network switch immediately",
-                "Document a resolution before testing",
-                "Escalate the issue without collecting any details"
-            ],
-            "correctAnswers": [
-                "Identify the problem by gathering information and symptoms"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Replace the network switch immediately"
+    },
+    {
+      "id": "c",
+      "text": "Document a resolution before testing"
+    },
+    {
+      "id": "d",
+      "text": "Escalate the issue without collecting any details"
+    }
+  ],
+  "correctAnswers": [
+    "a"
+  ],
+  "difficulty": "easy"
 }

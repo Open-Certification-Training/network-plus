@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "static-routing",
-        "difficulty": "easy",
-        "description": "Identifies when a manually configured route is appropriate.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-2.0-2.1-static-route-next-hop",
+  "examId": "N10-009",
+  "domainId": "2.0",
+  "objectiveId": "2.1",
+  "topic": "static-routing",
+  "questionText": "A router must send traffic for a remote network through a specific neighboring router. Which route type lets an administrator manually define that path?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Static route"
     },
-    "question": [
-        {
-            "text": "A router must send traffic for a remote network through a specific neighboring router. Which route type lets an administrator manually define that path?",
-            "options": [
-                "Static route",
-                "Dynamic route learned through OSPF",
-                "Default VLAN",
-                "Link aggregation"
-            ],
-            "correctAnswers": [
-                "Static route"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Dynamic route learned through OSPF"
+    },
+    {
+      "id": "c",
+      "text": "Default VLAN"
+    },
+    {
+      "id": "d",
+      "text": "Link aggregation"
+    }
+  ],
+  "correctAnswers": [
+    "a"
+  ],
+  "difficulty": "easy"
 }

@@ -1,23 +1,31 @@
 {
-    "meta": {
-        "topic": "dns-troubleshooting",
-        "difficulty": "medium",
-        "description": "Uses symptoms to focus troubleshooting on DNS resolution.",
-        "questionType": "multiple-select"
+  "questionId": "N10-009-5.0-5.3-d-n-s-resolution-troubleshooting",
+  "examId": "N10-009",
+  "domainId": "5.0",
+  "objectiveId": "5.3",
+  "topic": "dns-troubleshooting",
+  "questionText": "Users can reach a server by IP address but not by its hostname. Which two checks are most relevant to troubleshooting this symptom? Select two.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Verify that the client is using a reachable, correct DNS resolver"
     },
-    "question": [
-        {
-            "text": "Users can reach a server by IP address but not by its hostname. Which two checks are most relevant to troubleshooting this symptom? Select two.",
-            "options": [
-                "Verify that the client is using a reachable, correct DNS resolver",
-                "Query DNS to see whether the hostname has the expected record",
-                "Replace every switch before checking name resolution",
-                "Change the Ethernet duplex setting as the first step"
-            ],
-            "correctAnswers": [
-                "Verify that the client is using a reachable, correct DNS resolver",
-                "Query DNS to see whether the hostname has the expected record"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Query DNS to see whether the hostname has the expected record"
+    },
+    {
+      "id": "c",
+      "text": "Replace every switch before checking name resolution"
+    },
+    {
+      "id": "d",
+      "text": "Change the Ethernet duplex setting as the first step"
+    }
+  ],
+  "correctAnswers": [
+    "a",
+    "b"
+  ],
+  "difficulty": "medium"
 }

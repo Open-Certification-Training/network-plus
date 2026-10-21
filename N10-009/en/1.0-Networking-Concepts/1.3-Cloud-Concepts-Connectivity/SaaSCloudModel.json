@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "Cloud Concepts",
-        "difficulty": "easy",
-        "description": "Tests identification of the software-as-a-service model.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-1.0-1.3-saa-s-cloud-model",
+  "examId": "N10-009",
+  "domainId": "1.0",
+  "objectiveId": "1.3",
+  "topic": "Cloud Concepts",
+  "questionText": "A business accesses its email and collaboration suite through a browser. The provider manages the application and underlying infrastructure. Which cloud service model is this?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "IaaS"
     },
-    "question": [
-        {
-            "text": "A business accesses its email and collaboration suite through a browser. The provider manages the application and underlying infrastructure. Which cloud service model is this?",
-            "options": [
-                "IaaS",
-                "PaaS",
-                "SaaS",
-                "On-premises hosting"
-            ],
-            "correctAnswers": [
-                "SaaS"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "PaaS"
+    },
+    {
+      "id": "c",
+      "text": "SaaS"
+    },
+    {
+      "id": "d",
+      "text": "On-premises hosting"
+    }
+  ],
+  "correctAnswers": [
+    "c"
+  ],
+  "difficulty": "easy"
 }

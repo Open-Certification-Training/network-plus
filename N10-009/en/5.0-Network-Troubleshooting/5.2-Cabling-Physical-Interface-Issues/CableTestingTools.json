@@ -1,23 +1,31 @@
 {
-    "meta": {
-        "topic": "cable-testing",
-        "difficulty": "medium",
-        "description": "Matches physical cable faults with appropriate testing tools.",
-        "questionType": "multiple-select"
+  "questionId": "N10-009-5.0-5.2-cable-testing-tools",
+  "examId": "N10-009",
+  "domainId": "5.0",
+  "objectiveId": "5.2",
+  "topic": "cable-testing",
+  "questionText": "A technician needs to identify a miswired copper cable and locate a break in a cable run. Select two suitable tools or tool functions.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Cable tester that checks wire map and continuity"
     },
-    "question": [
-        {
-            "text": "A technician needs to identify a miswired copper cable and locate a break in a cable run. Select two suitable tools or tool functions.",
-            "options": [
-                "Cable tester that checks wire map and continuity",
-                "Time-domain reflectometer (TDR) for locating cable faults",
-                "Packet capture software to measure cable pinout directly",
-                "DNS lookup utility to detect copper shorts"
-            ],
-            "correctAnswers": [
-                "Cable tester that checks wire map and continuity",
-                "Time-domain reflectometer (TDR) for locating cable faults"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Time-domain reflectometer (TDR) for locating cable faults"
+    },
+    {
+      "id": "c",
+      "text": "Packet capture software to measure cable pinout directly"
+    },
+    {
+      "id": "d",
+      "text": "DNS lookup utility to detect copper shorts"
+    }
+  ],
+  "correctAnswers": [
+    "a",
+    "b"
+  ],
+  "difficulty": "medium"
 }

@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "latency-and-throughput",
-        "difficulty": "easy",
-        "description": "Distinguishes latency from throughput.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-5.0-5.4-latency-vs-throughput",
+  "examId": "N10-009",
+  "domainId": "5.0",
+  "objectiveId": "5.4",
+  "topic": "latency-and-throughput",
+  "questionText": "Which metric measures the time it takes for data to travel from a source to a destination?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Latency"
     },
-    "question": [
-        {
-            "text": "Which metric measures the time it takes for data to travel from a source to a destination?",
-            "options": [
-                "Latency",
-                "Throughput",
-                "Signal-to-noise ratio",
-                "Address lease duration"
-            ],
-            "correctAnswers": [
-                "Latency"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Throughput"
+    },
+    {
+      "id": "c",
+      "text": "Signal-to-noise ratio"
+    },
+    {
+      "id": "d",
+      "text": "Address lease duration"
+    }
+  ],
+  "correctAnswers": [
+    "a"
+  ],
+  "difficulty": "easy"
 }

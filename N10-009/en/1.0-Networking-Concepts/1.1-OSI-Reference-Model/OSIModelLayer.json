@@ -1,18 +1,30 @@
 {
-    "meta": {
-        "topic": "OSI Reference Model",
-        "difficulty": "medium",
-        "description": "Tests knowledge of the Network layer, including IP addressing and packet routing."
+  "questionId": "N10-009-1.0-1.1-o-s-i-model-layer",
+  "examId": "N10-009",
+  "domainId": "1.0",
+  "objectiveId": "1.1",
+  "topic": "OSI Reference Model",
+  "questionText": "A network administrator is troubleshooting an issue involving IP addresses and determining how packets should be routed between different networks. Which OSI model layer is primarily responsible for these functions?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Data Link"
     },
-    "question": 
-    [{
-        "text": "A network administrator is troubleshooting an issue involving IP addresses and determining how packets should be routed between different networks. Which OSI model layer is primarily responsible for these functions?",
-        "options": [
-            "Data Link",
-            "Transport",
-            "Network",
-            "Session"
-        ],
-        "correctAnswer": "Network"
-    }]
+    {
+      "id": "b",
+      "text": "Transport"
+    },
+    {
+      "id": "c",
+      "text": "Network"
+    },
+    {
+      "id": "d",
+      "text": "Session"
+    }
+  ],
+  "correctAnswers": [
+    "c"
+  ],
+  "difficulty": "medium"
 }

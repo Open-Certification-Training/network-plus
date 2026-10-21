@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "rack-and-airflow",
-        "difficulty": "easy",
-        "description": "Tests rack airflow and equipment placement fundamentals.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-2.0-2.4-rack-airflow-planning",
+  "examId": "N10-009",
+  "domainId": "2.0",
+  "objectiveId": "2.4",
+  "topic": "rack-and-airflow",
+  "questionText": "When installing switches and servers in a rack, which practice best supports reliable cooling?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Maintain the equipment's intended front-to-back airflow and avoid blocking vents"
     },
-    "question": [
-        {
-            "text": "When installing switches and servers in a rack, which practice best supports reliable cooling?",
-            "options": [
-                "Maintain the equipment's intended front-to-back airflow and avoid blocking vents",
-                "Pack unused rack spaces with solid panels directly over exhaust vents",
-                "Place all hot exhausts facing each other",
-                "Bundle power cables across every ventilation opening"
-            ],
-            "correctAnswers": [
-                "Maintain the equipment's intended front-to-back airflow and avoid blocking vents"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Pack unused rack spaces with solid panels directly over exhaust vents"
+    },
+    {
+      "id": "c",
+      "text": "Place all hot exhausts facing each other"
+    },
+    {
+      "id": "d",
+      "text": "Bundle power cables across every ventilation opening"
+    }
+  ],
+  "correctAnswers": [
+    "a"
+  ],
+  "difficulty": "easy"
 }

@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "IPv4 Addressing",
-        "difficulty": "easy",
-        "description": "Tests the purpose of an IPv4 subnet mask.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-1.0-1.7-subnet-mask-purpose",
+  "examId": "N10-009",
+  "domainId": "1.0",
+  "objectiveId": "1.7",
+  "topic": "IPv4 Addressing",
+  "questionText": "What does an IPv4 subnet mask identify?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "The network and host portions of an IPv4 address"
     },
-    "question": [
-        {
-            "text": "What does an IPv4 subnet mask identify?",
-            "options": [
-                "The network and host portions of an IPv4 address",
-                "The MAC address of the default gateway",
-                "The DNS server’s hostname",
-                "The TCP port used by an application"
-            ],
-            "correctAnswers": [
-                "The network and host portions of an IPv4 address"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "The MAC address of the default gateway"
+    },
+    {
+      "id": "c",
+      "text": "The DNS server’s hostname"
+    },
+    {
+      "id": "d",
+      "text": "The TCP port used by an application"
+    }
+  ],
+  "correctAnswers": [
+    "a"
+  ],
+  "difficulty": "easy"
 }

@@ -1,23 +1,31 @@
 {
-    "meta": {
-        "topic": "dns",
-        "difficulty": "medium",
-        "description": "Tests common DNS record types.",
-        "questionType": "multiple-select"
+  "questionId": "N10-009-3.0-3.4-d-n-s-record-types",
+  "examId": "N10-009",
+  "domainId": "3.0",
+  "objectiveId": "3.4",
+  "topic": "dns",
+  "questionText": "A network administrator is configuring DNS. Which two record types are correctly matched to their purposes? Select two.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "A — maps a hostname to an IPv4 address"
     },
-    "question": [
-        {
-            "text": "A network administrator is configuring DNS. Which two record types are correctly matched to their purposes? Select two.",
-            "options": [
-                "A — maps a hostname to an IPv4 address",
-                "AAAA — maps a hostname to an IPv6 address",
-                "MX — maps a hostname to a MAC address",
-                "PTR — defines the default gateway for a subnet"
-            ],
-            "correctAnswers": [
-                "A — maps a hostname to an IPv4 address",
-                "AAAA — maps a hostname to an IPv6 address"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "AAAA — maps a hostname to an IPv6 address"
+    },
+    {
+      "id": "c",
+      "text": "MX — maps a hostname to a MAC address"
+    },
+    {
+      "id": "d",
+      "text": "PTR — defines the default gateway for a subnet"
+    }
+  ],
+  "correctAnswers": [
+    "a",
+    "b"
+  ],
+  "difficulty": "medium"
 }

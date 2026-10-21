@@ -1,23 +1,31 @@
 {
-    "meta": {
-        "topic": "power-and-environment",
-        "difficulty": "medium",
-        "description": "Identifies practical power-protection measures for network equipment.",
-        "questionType": "multiple-select"
+  "questionId": "N10-009-2.0-2.4-power-protection-equipment",
+  "examId": "N10-009",
+  "domainId": "2.0",
+  "objectiveId": "2.4",
+  "topic": "power-and-environment",
+  "questionText": "A network closet must remain protected from brief power interruptions and electrical disturbances. Select two suitable measures.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Install an appropriately sized UPS"
     },
-    "question": [
-        {
-            "text": "A network closet must remain protected from brief power interruptions and electrical disturbances. Select two suitable measures.",
-            "options": [
-                "Install an appropriately sized UPS",
-                "Use suitable surge protection",
-                "Remove equipment grounding to prevent ground loops",
-                "Block ventilation to keep dust out"
-            ],
-            "correctAnswers": [
-                "Install an appropriately sized UPS",
-                "Use suitable surge protection"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Use suitable surge protection"
+    },
+    {
+      "id": "c",
+      "text": "Remove equipment grounding to prevent ground loops"
+    },
+    {
+      "id": "d",
+      "text": "Block ventilation to keep dust out"
+    }
+  ],
+  "correctAnswers": [
+    "a",
+    "b"
+  ],
+  "difficulty": "medium"
 }

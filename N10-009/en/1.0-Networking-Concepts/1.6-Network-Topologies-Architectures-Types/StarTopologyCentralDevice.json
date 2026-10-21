@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "Network Topologies",
-        "difficulty": "easy",
-        "description": "Tests recognition of a star topology.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-1.0-1.6-star-topology-central-device",
+  "examId": "N10-009",
+  "domainId": "1.0",
+  "objectiveId": "1.6",
+  "topic": "Network Topologies",
+  "questionText": "In which topology do endpoint devices connect to a central switch or other central device?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Bus"
     },
-    "question": [
-        {
-            "text": "In which topology do endpoint devices connect to a central switch or other central device?",
-            "options": [
-                "Bus",
-                "Ring",
-                "Star",
-                "Full mesh"
-            ],
-            "correctAnswers": [
-                "Star"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Ring"
+    },
+    {
+      "id": "c",
+      "text": "Star"
+    },
+    {
+      "id": "d",
+      "text": "Full mesh"
+    }
+  ],
+  "correctAnswers": [
+    "c"
+  ],
+  "difficulty": "easy"
 }

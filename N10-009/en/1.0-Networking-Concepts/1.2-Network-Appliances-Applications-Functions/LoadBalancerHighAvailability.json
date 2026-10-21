@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "Network Appliances",
-        "difficulty": "medium",
-        "description": "Tests understanding of load balancing across application servers.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-1.0-1.2-load-balancer-high-availability",
+  "examId": "N10-009",
+  "domainId": "1.0",
+  "objectiveId": "1.2",
+  "topic": "Network Appliances",
+  "questionText": "A company runs the same web application on four servers. Which appliance can distribute incoming client requests across those servers to improve availability and capacity?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Load balancer"
     },
-    "question": [
-        {
-            "text": "A company runs the same web application on four servers. Which appliance can distribute incoming client requests across those servers to improve availability and capacity?",
-            "options": [
-                "Load balancer",
-                "Layer 2 unmanaged switch",
-                "Modem",
-                "Protocol analyzer"
-            ],
-            "correctAnswers": [
-                "Load balancer"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Layer 2 unmanaged switch"
+    },
+    {
+      "id": "c",
+      "text": "Modem"
+    },
+    {
+      "id": "d",
+      "text": "Protocol analyzer"
+    }
+  ],
+  "correctAnswers": [
+    "a"
+  ],
+  "difficulty": "medium"
 }

@@ -1,23 +1,31 @@
 {
-    "meta": {
-        "topic": "disaster-recovery-sites",
-        "difficulty": "medium",
-        "description": "Compares hot and cold disaster recovery sites.",
-        "questionType": "multiple-select"
+  "questionId": "N10-009-3.0-3.3-disaster-recovery-site-types",
+  "examId": "N10-009",
+  "domainId": "3.0",
+  "objectiveId": "3.3",
+  "topic": "disaster-recovery-sites",
+  "questionText": "Which two statements about disaster recovery sites are generally accurate? Select two.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "A hot site is typically equipped for relatively rapid service restoration"
     },
-    "question": [
-        {
-            "text": "Which two statements about disaster recovery sites are generally accurate? Select two.",
-            "options": [
-                "A hot site is typically equipped for relatively rapid service restoration",
-                "A cold site generally requires more setup before it can support operations",
-                "A cold site is always fully operational with live replicated systems",
-                "A hot site never requires testing or maintenance"
-            ],
-            "correctAnswers": [
-                "A hot site is typically equipped for relatively rapid service restoration",
-                "A cold site generally requires more setup before it can support operations"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "A cold site generally requires more setup before it can support operations"
+    },
+    {
+      "id": "c",
+      "text": "A cold site is always fully operational with live replicated systems"
+    },
+    {
+      "id": "d",
+      "text": "A hot site never requires testing or maintenance"
+    }
+  ],
+  "correctAnswers": [
+    "a",
+    "b"
+  ],
+  "difficulty": "medium"
 }

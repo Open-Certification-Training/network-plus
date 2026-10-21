@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "duplex-mismatch",
-        "difficulty": "medium",
-        "description": "Recognizes common symptoms of an Ethernet duplex mismatch.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-5.0-5.2-duplex-mismatch-symptoms",
+  "examId": "N10-009",
+  "domainId": "5.0",
+  "objectiveId": "5.2",
+  "topic": "duplex-mismatch",
+  "questionText": "An Ethernet link is up, but users experience poor throughput and increasing errors after one side was manually configured for full duplex while the other side uses an incompatible setting. What is a likely cause?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "Duplex mismatch"
     },
-    "question": [
-        {
-            "text": "An Ethernet link is up, but users experience poor throughput and increasing errors after one side was manually configured for full duplex while the other side uses an incompatible setting. What is a likely cause?",
-            "options": [
-                "Duplex mismatch",
-                "Incorrect DNS MX record",
-                "Expired DHCP lease only",
-                "An incorrect NTP time zone"
-            ],
-            "correctAnswers": [
-                "Duplex mismatch"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "Incorrect DNS MX record"
+    },
+    {
+      "id": "c",
+      "text": "Expired DHCP lease only"
+    },
+    {
+      "id": "d",
+      "text": "An incorrect NTP time zone"
+    }
+  ],
+  "correctAnswers": [
+    "a"
+  ],
+  "difficulty": "medium"
 }

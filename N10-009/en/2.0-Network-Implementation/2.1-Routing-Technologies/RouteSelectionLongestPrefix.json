@@ -1,22 +1,30 @@
 {
-    "meta": {
-        "topic": "route-selection",
-        "difficulty": "medium",
-        "description": "Tests longest-prefix-match route selection.",
-        "questionType": "single-choice"
+  "questionId": "N10-009-2.0-2.1-route-selection-longest-prefix",
+  "examId": "N10-009",
+  "domainId": "2.0",
+  "objectiveId": "2.1",
+  "topic": "route-selection",
+  "questionText": "A router has routes to 10.20.0.0/16 and 10.20.8.0/24. A packet is destined for 10.20.8.45. Which route is selected when both routes are otherwise valid?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "text": "10.20.0.0/16 because it covers more addresses"
     },
-    "question": [
-        {
-            "text": "A router has routes to 10.20.0.0/16 and 10.20.8.0/24. A packet is destined for 10.20.8.45. Which route is selected when both routes are otherwise valid?",
-            "options": [
-                "10.20.0.0/16 because it covers more addresses",
-                "10.20.8.0/24 because it is the longest prefix match",
-                "The route with the numerically smallest next-hop address",
-                "Both routes are used for every packet"
-            ],
-            "correctAnswers": [
-                "10.20.8.0/24 because it is the longest prefix match"
-            ]
-        }
-    ]
+    {
+      "id": "b",
+      "text": "10.20.8.0/24 because it is the longest prefix match"
+    },
+    {
+      "id": "c",
+      "text": "The route with the numerically smallest next-hop address"
+    },
+    {
+      "id": "d",
+      "text": "Both routes are used for every packet"
+    }
+  ],
+  "correctAnswers": [
+    "b"
+  ],
+  "difficulty": "medium"
 }
