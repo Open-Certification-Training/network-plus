@@ -3,7 +3,6 @@
         "topic": "OSI Reference Model",
         "difficulty": "medium",
         "description": "Tests recognition of the Data Link layer's role in framing data for transmission across a local link.",
-        "questionType": "single-choice"
     },
     "question": [
         {
