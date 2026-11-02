@@ -1,5 +1,5 @@
 [files]
-extend-exclude = ["**/package-lock.json", ".git/**"]
+extend-exclude = ["**/package-lock.json", ".git/**", ".github/**"]
 ignore-hidden = false
 ignore-parent = false
 ignore-global = false

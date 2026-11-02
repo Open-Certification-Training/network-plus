@@ -2,6 +2,8 @@ name: Fix JSON formatting
 
 on:
   pull_request:
+    paths-ignore:
+      - ".github/**"
 
 permissions:
   contents: read
@@ -37,7 +39,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           HEAD_BRANCH: ${{ github.event.pull_request.head.ref }}
         run: |
-          git add -- '*.json'
+          git add -- '*.json' ':(top,exclude).github/**'
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0

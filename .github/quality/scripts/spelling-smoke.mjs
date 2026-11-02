@@ -52,11 +52,13 @@ function spellcheck(root) {
   return result;
 }
 
-test("spelling accepts valid content and excludes dependencies, lockfiles, and Git internals", async (t) => {
+test("spelling excludes .github, dependencies, lockfiles, and Git internals", async (t) => {
   const root = await fixture(t);
   for (const file of [
     "package-lock.json",
     ".github/quality/package-lock.json",
+    ".github/settings.json",
+    ".github/workflows/quality.yml",
     "node_modules/example.txt",
     ".github/quality/node_modules/example.txt",
     ".git/example.txt",
@@ -71,7 +73,6 @@ test("spelling accepts valid content and excludes dependencies, lockfiles, and G
 for (const file of [
   "README.md",
   "EXAM-VERSION/en/domain/objective/network-devices.json",
-  ".github/workflows/quality.yml",
 ]) {
   test(`spelling fails for a typo in ${file}`, async (t) => {
     const root = await fixture(t);

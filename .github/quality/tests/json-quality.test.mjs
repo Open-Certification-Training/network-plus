@@ -39,7 +39,7 @@ async function fixture(t, question = validQuestion) {
 test("accepts a one-question topic with multiple correct answers and omitted optional fields", async (t) => {
   const result = await checkRepository(await fixture(t), "validate");
   assert.deepEqual(result.errors, []);
-  assert.equal(result.count, 3);
+  assert.equal(result.count, 2);
 });
 
 test("accepts multiple question types together in one topic", async (t) => {
@@ -289,6 +289,34 @@ test("formatting preserves values, supports spaces in paths, and is idempotent",
   assert.deepEqual((await checkRepository(root, "format")).changed, []);
 });
 
+test("all JSON checks skip tracked and untracked content throughout .github", async (t) => {
+  const root = await fixture(t);
+  const ignoredFiles = new Map([
+    [configFile, await readFile(path.join(root, configFile), "utf8")],
+    [".github/settings.json", '{ "enabled":true }'],
+    [".github/quality/broken.json", '{"unfinished":'],
+  ]);
+  for (const [file, source] of ignoredFiles) {
+    await writeFile(path.join(root, file), source);
+  }
+  execFileSync("git", ["add", "--", ".github/settings.json"], { cwd: root });
+
+  const before = await checkRepository(root, "check");
+  assert.ok(before.errors.some((error) => error.startsWith(questionFile)));
+  assert.ok(before.errors.every((error) => !error.startsWith(".github/")));
+  const result = await checkRepository(root, "format");
+  assert.deepEqual(result.errors, []);
+  assert.ok(result.changed.includes(questionFile));
+  assert.ok(result.changed.every((file) => !file.startsWith(".github/")));
+  assert.deepEqual((await checkRepository(root, "check")).errors, []);
+  for (const [file, source] of ignoredFiles) {
+    assert.equal(await readFile(path.join(root, file), "utf8"), source);
+  }
+  const validation = await checkRepository(root, "validate");
+  assert.deepEqual(validation.errors, []);
+  assert.equal(validation.count, 2);
+});
+
 test("formatting does not modify any files when one file contains invalid JSON", async (t) => {
   const root = await fixture(t);
   const before = await readFile(path.join(root, questionFile), "utf8");
@@ -327,7 +355,7 @@ for (const directory of [".", ".github/quality"]) {
         encoding: "utf8",
       },
     );
-    assert.match(output, /JSON validate passed \(3 files\)/);
+    assert.match(output, /JSON validate passed \(2 files\)/);
     await writeFile(path.join(root, questionFile), "invalid JSON");
     assert.throws(
       () =>

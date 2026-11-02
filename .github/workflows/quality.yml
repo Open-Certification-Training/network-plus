@@ -2,9 +2,13 @@ name: Quality checks
 
 on:
   pull_request:
+    paths-ignore:
+      - ".github/**"
   merge_group:
   push:
     branches: [main]
+    paths-ignore:
+      - ".github/**"
   workflow_dispatch:
 
 permissions:

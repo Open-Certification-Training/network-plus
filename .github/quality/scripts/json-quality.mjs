@@ -35,6 +35,7 @@ export async function checkRepository(root, mode) {
           "-z",
           "--",
           "*.json",
+          ":(top,exclude).github/**",
         ],
         { cwd: root, encoding: "utf8" },
       )
@@ -62,7 +63,14 @@ export async function checkRepository(root, mode) {
 
   if (mode === "validate") {
     const schema = documents.get("schema.json");
-    const config = documents.get(configFile)?.data;
+    // Read the tooling configuration without including it in reviewed content.
+    let config;
+    try {
+      config = JSON.parse(await readFile(path.join(root, configFile), "utf8"));
+    } catch (error) {
+      errors.push(`${configFile}: cannot load configuration: ${error.message}`);
+      return { errors, changed, count: documents.size };
+    }
     if (!schema) errors.push("schema.json: a valid topic schema is required");
     const directories = config?.questionDirectories;
     if (
