@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-2.0-2.3-wireless-channel-interference",
-  "examId": "N10-009",
-  "domainId": "2.0",
-  "objectiveId": "2.3",
-  "topic": "wireless-channels",
-  "questionText": "Users report poor Wi-Fi performance in a crowded office. A survey shows several nearby access points using overlapping 2.4 GHz channels. What is the best first configuration change to investigate?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Plan non-overlapping channel assignments for nearby access points"
-    },
-    {
-      "id": "b",
-      "text": "Disable encryption on every access point"
-    },
-    {
-      "id": "c",
-      "text": "Set every access point to the same maximum transmit power without testing"
-    },
-    {
-      "id": "d",
-      "text": "Change all clients to static IPv4 addresses"
-    }
-  ],
-  "correctAnswers": [
-    "a"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "Users report poor Wi-Fi performance in a crowded office. A survey shows several nearby access points using overlapping 2.4 GHz channels. What is the best first configuration change to investigate?",
+    "answerOptions": [
+      "Plan non-overlapping channel assignments for nearby access points",
+      "Disable encryption on every access point",
+      "Set every access point to the same maximum transmit power without testing",
+      "Change all clients to static IPv4 addresses"
+    ],
+    "correctAnswers": [0],
+    "difficulty": "medium"
+  }
+]

@@ -1,31 +1,13 @@
-{
-  "questionId": "N10-009-3.0-3.2-monitoring-telemetry-sources",
-  "examId": "N10-009",
-  "domainId": "3.0",
-  "objectiveId": "3.2",
-  "topic": "monitoring-telemetry",
-  "questionText": "An administrator wants to investigate intermittent packet loss and identify traffic patterns. Select two useful sources of monitoring evidence.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Packet captures"
-    },
-    {
-      "id": "b",
-      "text": "Flow records such as NetFlow or IPFIX"
-    },
-    {
-      "id": "c",
-      "text": "A monitor's screen brightness setting"
-    },
-    {
-      "id": "d",
-      "text": "A printer's paper tray count"
-    }
-  ],
-  "correctAnswers": [
-    "a",
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "An administrator wants to investigate intermittent packet loss and identify traffic patterns. Select two useful sources of monitoring evidence.",
+    "answerOptions": [
+      "Packet captures",
+      "Flow records such as NetFlow or IPFIX",
+      "A monitor's screen brightness setting",
+      "A printer's paper tray count"
+    ],
+    "correctAnswers": [0, 1],
+    "difficulty": "medium"
+  }
+]

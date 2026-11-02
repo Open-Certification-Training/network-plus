@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-1.0-1.1-layer1",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.1",
-  "topic": "OSI Reference Model",
-  "questionText": "What is Layer 1 of the OSI model?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Data Link Layer"
-    },
-    {
-      "id": "b",
-      "text": "Physical Layer"
-    },
-    {
-      "id": "c",
-      "text": "Network Layer"
-    },
-    {
-      "id": "d",
-      "text": "Transport Layer"
-    }
-  ],
-  "correctAnswers": [
-    "b"
-  ],
-  "difficulty": "easy"
-}
+[
+  {
+    "questionText": "What is Layer 1 of the OSI model?",
+    "answerOptions": [
+      "Data Link Layer",
+      "Physical Layer",
+      "Network Layer",
+      "Transport Layer"
+    ],
+    "correctAnswers": [1],
+    "difficulty": "easy"
+  }
+]

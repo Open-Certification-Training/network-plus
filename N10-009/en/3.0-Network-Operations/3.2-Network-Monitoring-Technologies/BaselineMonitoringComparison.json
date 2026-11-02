@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-3.0-3.2-baseline-monitoring-comparison",
-  "examId": "N10-009",
-  "domainId": "3.0",
-  "objectiveId": "3.2",
-  "topic": "performance-baselines",
-  "questionText": "A link usually operates at 25% utilization, but today it remains at 95% during normal business hours. Which monitoring practice helps determine whether this is abnormal?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Compare current measurements with an established performance baseline"
-    },
-    {
-      "id": "b",
-      "text": "Replace the router before collecting any more data"
-    },
-    {
-      "id": "c",
-      "text": "Assume high utilization always indicates a cable fault"
-    },
-    {
-      "id": "d",
-      "text": "Clear all logs to establish a new baseline"
-    }
-  ],
-  "correctAnswers": [
-    "a"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "A link usually operates at 25% utilization, but today it remains at 95% during normal business hours. Which monitoring practice helps determine whether this is abnormal?",
+    "answerOptions": [
+      "Compare current measurements with an established performance baseline",
+      "Replace the router before collecting any more data",
+      "Assume high utilization always indicates a cable fault",
+      "Clear all logs to establish a new baseline"
+    ],
+    "correctAnswers": [0],
+    "difficulty": "medium"
+  }
+]

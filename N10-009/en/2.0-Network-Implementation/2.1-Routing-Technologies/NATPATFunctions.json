@@ -1,31 +1,13 @@
-{
-  "questionId": "N10-009-2.0-2.1-n-a-t-p-a-t-functions",
-  "examId": "N10-009",
-  "domainId": "2.0",
-  "objectiveId": "2.1",
-  "topic": "nat-pat",
-  "questionText": "A small office router allows many private IPv4 hosts to share one public IPv4 address for outbound connections. Select two technologies or functions that describe this behavior.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Network address translation (NAT)"
-    },
-    {
-      "id": "b",
-      "text": "Port address translation (PAT)"
-    },
-    {
-      "id": "c",
-      "text": "Spanning Tree Protocol (STP)"
-    },
-    {
-      "id": "d",
-      "text": "Link-local addressing"
-    }
-  ],
-  "correctAnswers": [
-    "a",
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "A small office router allows many private IPv4 hosts to share one public IPv4 address for outbound connections. Select two technologies or functions that describe this behavior.",
+    "answerOptions": [
+      "Network address translation (NAT)",
+      "Port address translation (PAT)",
+      "Spanning Tree Protocol (STP)",
+      "Link-local addressing"
+    ],
+    "correctAnswers": [0, 1],
+    "difficulty": "medium"
+  }
+]

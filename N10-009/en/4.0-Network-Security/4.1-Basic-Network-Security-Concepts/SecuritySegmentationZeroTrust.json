@@ -1,31 +1,13 @@
-{
-  "questionId": "N10-009-4.0-4.1-security-segmentation-zero-trust",
-  "examId": "N10-009",
-  "domainId": "4.0",
-  "objectiveId": "4.1",
-  "topic": "segmentation-and-zero-trust",
-  "questionText": "Which two practices align with reducing implicit trust and limiting lateral movement? Select two.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Segment sensitive systems from general user networks"
-    },
-    {
-      "id": "b",
-      "text": "Continuously verify access based on identity and context"
-    },
-    {
-      "id": "c",
-      "text": "Allow every internal device unrestricted access because it is inside the perimeter"
-    },
-    {
-      "id": "d",
-      "text": "Use one shared administrator account for all staff"
-    }
-  ],
-  "correctAnswers": [
-    "a",
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "Which two practices align with reducing implicit trust and limiting lateral movement? Select two.",
+    "answerOptions": [
+      "Segment sensitive systems from general user networks",
+      "Continuously verify access based on identity and context",
+      "Allow every internal device unrestricted access because it is inside the perimeter",
+      "Use one shared administrator account for all staff"
+    ],
+    "correctAnswers": [0, 1],
+    "difficulty": "medium"
+  }
+]

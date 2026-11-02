@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-2.0-2.4-copper-cable-categories",
-  "examId": "N10-009",
-  "domainId": "2.0",
-  "objectiveId": "2.4",
-  "topic": "copper-cabling",
-  "questionText": "A technician needs a copper Ethernet cable run that supports 10GBASE-T at up to 100 meters under the appropriate installation conditions. Which cable category is commonly specified for this requirement?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Category 6A"
-    },
-    {
-      "id": "b",
-      "text": "Category 3"
-    },
-    {
-      "id": "c",
-      "text": "Category 5 without qualification"
-    },
-    {
-      "id": "d",
-      "text": "Flat telephone cord"
-    }
-  ],
-  "correctAnswers": [
-    "a"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "A technician needs a copper Ethernet cable run that supports 10GBASE-T at up to 100 meters under the appropriate installation conditions. Which cable category is commonly specified for this requirement?",
+    "answerOptions": [
+      "Category 6A",
+      "Category 3",
+      "Category 5 without qualification",
+      "Flat telephone cord"
+    ],
+    "correctAnswers": [0],
+    "difficulty": "medium"
+  }
+]

@@ -1,31 +1,13 @@
-{
-  "questionId": "N10-009-1.0-1.3-cloud-elasticity-and-scalability",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.3",
-  "topic": "Cloud Concepts",
-  "questionText": "Which TWO characteristics are commonly associated with cloud computing? Select two.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Resources can be provisioned on demand"
-    },
-    {
-      "id": "b",
-      "text": "Capacity can be scaled up or down as needs change"
-    },
-    {
-      "id": "c",
-      "text": "All cloud resources must be hosted inside the customer’s office"
-    },
-    {
-      "id": "d",
-      "text": "Cloud services cannot be accessed over a network"
-    }
-  ],
-  "correctAnswers": [
-    "a",
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "Which TWO characteristics are commonly associated with cloud computing? Select two.",
+    "answerOptions": [
+      "Resources can be provisioned on demand",
+      "Capacity can be scaled up or down as needs change",
+      "All cloud resources must be hosted inside the customer’s office",
+      "Cloud services cannot be accessed over a network"
+    ],
+    "correctAnswers": [0, 1],
+    "difficulty": "medium"
+  }
+]

@@ -1,31 +1,13 @@
-{
-  "questionId": "N10-009-2.0-2.3-wireless-security-protocols",
-  "examId": "N10-009",
-  "domainId": "2.0",
-  "objectiveId": "2.3",
-  "topic": "wireless-security",
-  "questionText": "An organization is choosing modern security for its enterprise wireless network. Select two appropriate choices or capabilities.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "WPA3"
-    },
-    {
-      "id": "b",
-      "text": "WPA2 with AES/CCMP"
-    },
-    {
-      "id": "c",
-      "text": "WEP as the preferred modern standard"
-    },
-    {
-      "id": "d",
-      "text": "An open SSID with no authentication"
-    }
-  ],
-  "correctAnswers": [
-    "a",
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "An organization is choosing modern security for its enterprise wireless network. Select two appropriate choices or capabilities.",
+    "answerOptions": [
+      "WPA3",
+      "WPA2 with AES/CCMP",
+      "WEP as the preferred modern standard",
+      "An open SSID with no authentication"
+    ],
+    "correctAnswers": [0, 1],
+    "difficulty": "medium"
+  }
+]

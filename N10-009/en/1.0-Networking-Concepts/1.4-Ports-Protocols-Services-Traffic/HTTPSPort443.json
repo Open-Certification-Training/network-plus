@@ -1,30 +1,8 @@
-{
-  "questionId": "N10-009-1.0-1.4-h-t-t-p-s-port443",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.4",
-  "topic": "Ports and Protocols",
-  "questionText": "Which TCP port is commonly used by HTTPS?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "21"
-    },
-    {
-      "id": "b",
-      "text": "53"
-    },
-    {
-      "id": "c",
-      "text": "80"
-    },
-    {
-      "id": "d",
-      "text": "443"
-    }
-  ],
-  "correctAnswers": [
-    "d"
-  ],
-  "difficulty": "easy"
-}
+[
+  {
+    "questionText": "Which TCP port is commonly used by HTTPS?",
+    "answerOptions": ["21", "53", "80", "443"],
+    "correctAnswers": [3],
+    "difficulty": "easy"
+  }
+]

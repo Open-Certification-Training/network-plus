@@ -1,31 +1,8 @@
-{
-  "questionId": "N10-009-1.0-1.4-secure-management-protocols",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.4",
-  "topic": "Ports and Protocols",
-  "questionText": "Which TWO protocols are commonly used for secure remote administration or encrypted management? Select two.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "SSH"
-    },
-    {
-      "id": "b",
-      "text": "HTTPS"
-    },
-    {
-      "id": "c",
-      "text": "Telnet"
-    },
-    {
-      "id": "d",
-      "text": "TFTP"
-    }
-  ],
-  "correctAnswers": [
-    "a",
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "Which TWO protocols are commonly used for secure remote administration or encrypted management? Select two.",
+    "answerOptions": ["SSH", "HTTPS", "Telnet", "TFTP"],
+    "correctAnswers": [0, 1],
+    "difficulty": "medium"
+  }
+]

@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-5.0-5.2-link-light-no-connectivity",
-  "examId": "N10-009",
-  "domainId": "5.0",
-  "objectiveId": "5.2",
-  "topic": "physical-layer-troubleshooting",
-  "questionText": "A workstation has no network connectivity. The switch port shows no link light, and the cable is visibly damaged. What is the most appropriate first corrective step?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Replace the damaged cable with a known-good cable of the correct type"
-    },
-    {
-      "id": "b",
-      "text": "Change the DNS server address"
-    },
-    {
-      "id": "c",
-      "text": "Reconfigure the user's email client"
-    },
-    {
-      "id": "d",
-      "text": "Replace the router's routing protocol"
-    }
-  ],
-  "correctAnswers": [
-    "a"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "A workstation has no network connectivity. The switch port shows no link light, and the cable is visibly damaged. What is the most appropriate first corrective step?",
+    "answerOptions": [
+      "Replace the damaged cable with a known-good cable of the correct type",
+      "Change the DNS server address",
+      "Reconfigure the user's email client",
+      "Replace the router's routing protocol"
+    ],
+    "correctAnswers": [0],
+    "difficulty": "medium"
+  }
+]

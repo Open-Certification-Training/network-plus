@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-1.0-1.2-firewall-packet-filtering",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.2",
-  "topic": "Network Appliances",
-  "questionText": "Which network appliance is primarily used to enforce traffic rules by allowing or blocking network connections?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Load balancer"
-    },
-    {
-      "id": "b",
-      "text": "Firewall"
-    },
-    {
-      "id": "c",
-      "text": "Wireless access point"
-    },
-    {
-      "id": "d",
-      "text": "Patch panel"
-    }
-  ],
-  "correctAnswers": [
-    "b"
-  ],
-  "difficulty": "easy"
-}
+[
+  {
+    "questionText": "Which network appliance is primarily used to enforce traffic rules by allowing or blocking network connections?",
+    "answerOptions": [
+      "Load balancer",
+      "Firewall",
+      "Wireless access point",
+      "Patch panel"
+    ],
+    "correctAnswers": [1],
+    "difficulty": "easy"
+  }
+]

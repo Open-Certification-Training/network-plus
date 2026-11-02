@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-3.0-3.1-change-management-approval",
-  "examId": "N10-009",
-  "domainId": "3.0",
-  "objectiveId": "3.1",
-  "topic": "change-management",
-  "questionText": "A technician plans to update a core switch during business hours. Which process should be followed before making the change?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Submit the change for the required review and approval, including impact and rollback planning"
-    },
-    {
-      "id": "b",
-      "text": "Make the change immediately and document it only if it fails"
-    },
-    {
-      "id": "c",
-      "text": "Disable monitoring so the change is not interrupted"
-    },
-    {
-      "id": "d",
-      "text": "Ask an unrelated end user to approve it verbally after completion"
-    }
-  ],
-  "correctAnswers": [
-    "a"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "A technician plans to update a core switch during business hours. Which process should be followed before making the change?",
+    "answerOptions": [
+      "Submit the change for the required review and approval, including impact and rollback planning",
+      "Make the change immediately and document it only if it fails",
+      "Disable monitoring so the change is not interrupted",
+      "Ask an unrelated end user to approve it verbally after completion"
+    ],
+    "correctAnswers": [0],
+    "difficulty": "medium"
+  }
+]

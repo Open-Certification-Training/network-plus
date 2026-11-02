@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-5.0-5.5-traceroute-path-diagnosis",
-  "examId": "N10-009",
-  "domainId": "5.0",
-  "objectiveId": "5.5",
-  "topic": "traceroute",
-  "questionText": "A user can reach a remote server intermittently. Which tool can help identify the Layer 3 path and the hop where responses stop or latency increases?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "traceroute or tracert"
-    },
-    {
-      "id": "b",
-      "text": "ipconfig without any options"
-    },
-    {
-      "id": "c",
-      "text": "A cable crimper"
-    },
-    {
-      "id": "d",
-      "text": "A DNS MX record editor"
-    }
-  ],
-  "correctAnswers": [
-    "a"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "A user can reach a remote server intermittently. Which tool can help identify the Layer 3 path and the hop where responses stop or latency increases?",
+    "answerOptions": [
+      "traceroute or tracert",
+      "ipconfig without any options",
+      "A cable crimper",
+      "A DNS MX record editor"
+    ],
+    "correctAnswers": [0],
+    "difficulty": "medium"
+  }
+]

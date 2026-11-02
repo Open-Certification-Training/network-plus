@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-4.0-4.1-c-i-a-confidentiality-integrity-availability",
-  "examId": "N10-009",
-  "domainId": "4.0",
-  "objectiveId": "4.1",
-  "topic": "cia-triad",
-  "questionText": "A network security control prevents unauthorized users from reading confidential data. Which element of the CIA triad does it primarily protect?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Confidentiality"
-    },
-    {
-      "id": "b",
-      "text": "Integrity"
-    },
-    {
-      "id": "c",
-      "text": "Availability"
-    },
-    {
-      "id": "d",
-      "text": "Nonrepudiation"
-    }
-  ],
-  "correctAnswers": [
-    "a"
-  ],
-  "difficulty": "easy"
-}
+[
+  {
+    "questionText": "A network security control prevents unauthorized users from reading confidential data. Which element of the CIA triad does it primarily protect?",
+    "answerOptions": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Nonrepudiation"
+    ],
+    "correctAnswers": [0],
+    "difficulty": "easy"
+  }
+]

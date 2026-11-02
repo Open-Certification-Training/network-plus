@@ -1,31 +1,13 @@
-{
-  "questionId": "N10-009-1.0-1.2-proxy-and-i-d-s-functions",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.2",
-  "topic": "Network Appliance Functions",
-  "questionText": "Which TWO functions may be provided by network security appliances? Select two.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "A proxy can relay client requests and apply content or access policies"
-    },
-    {
-      "id": "b",
-      "text": "An IDS can detect suspicious traffic and generate alerts"
-    },
-    {
-      "id": "c",
-      "text": "A patch panel assigns IP addresses to endpoints"
-    },
-    {
-      "id": "d",
-      "text": "A repeater performs user authentication against a directory"
-    }
-  ],
-  "correctAnswers": [
-    "a",
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "Which TWO functions may be provided by network security appliances? Select two.",
+    "answerOptions": [
+      "A proxy can relay client requests and apply content or access policies",
+      "An IDS can detect suspicious traffic and generate alerts",
+      "A patch panel assigns IP addresses to endpoints",
+      "A repeater performs user authentication against a directory"
+    ],
+    "correctAnswers": [0, 1],
+    "difficulty": "medium"
+  }
+]

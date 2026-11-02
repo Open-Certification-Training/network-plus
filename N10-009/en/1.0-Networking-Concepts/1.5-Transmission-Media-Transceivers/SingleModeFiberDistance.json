@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-1.0-1.5-single-mode-fiber-distance",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.5",
-  "topic": "Transmission Media",
-  "questionText": "Which cabling medium is generally best suited for high-bandwidth links over long distances between buildings or campuses?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Cat 5e UTP"
-    },
-    {
-      "id": "b",
-      "text": "Single-mode fiber"
-    },
-    {
-      "id": "c",
-      "text": "Coaxial patch cable"
-    },
-    {
-      "id": "d",
-      "text": "RJ11 telephone cable"
-    }
-  ],
-  "correctAnswers": [
-    "b"
-  ],
-  "difficulty": "easy"
-}
+[
+  {
+    "questionText": "Which cabling medium is generally best suited for high-bandwidth links over long distances between buildings or campuses?",
+    "answerOptions": [
+      "Cat 5e UTP",
+      "Single-mode fiber",
+      "Coaxial patch cable",
+      "RJ11 telephone cable"
+    ],
+    "correctAnswers": [1],
+    "difficulty": "easy"
+  }
+]

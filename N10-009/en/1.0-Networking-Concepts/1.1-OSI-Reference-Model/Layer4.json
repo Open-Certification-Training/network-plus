@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-1.0-1.1-layer4",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.1",
-  "topic": "OSI Reference Model",
-  "questionText": "What is the primary function of the Transport layer (Layer 4) in the OSI model?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Providing physical transmission of bits across a network medium"
-    },
-    {
-      "id": "b",
-      "text": "Providing end-to-end communication and reliable data delivery"
-    },
-    {
-      "id": "c",
-      "text": "Determining the best path for packets between networks"
-    },
-    {
-      "id": "d",
-      "text": "Translating data into a format that applications can understand"
-    }
-  ],
-  "correctAnswers": [
-    "b"
-  ],
-  "difficulty": "easy"
-}
+[
+  {
+    "questionText": "What is the primary function of the Transport layer (Layer 4) in the OSI model?",
+    "answerOptions": [
+      "Providing physical transmission of bits across a network medium",
+      "Providing end-to-end communication and reliable data delivery",
+      "Determining the best path for packets between networks",
+      "Translating data into a format that applications can understand"
+    ],
+    "correctAnswers": [1],
+    "difficulty": "easy"
+  }
+]

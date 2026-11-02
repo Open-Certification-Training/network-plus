@@ -1,31 +1,8 @@
-{
-  "questionId": "N10-009-3.0-3.5-r-a-d-i-u-s-and-t-a-c-a-c-s-plus",
-  "examId": "N10-009",
-  "domainId": "3.0",
-  "objectiveId": "3.5",
-  "topic": "centralized-authentication",
-  "questionText": "A company is evaluating centralized authentication protocols for network access and device administration. Select two protocols commonly associated with AAA.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "RADIUS"
-    },
-    {
-      "id": "b",
-      "text": "TACACS+"
-    },
-    {
-      "id": "c",
-      "text": "ARP"
-    },
-    {
-      "id": "d",
-      "text": "ICMP"
-    }
-  ],
-  "correctAnswers": [
-    "a",
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "A company is evaluating centralized authentication protocols for network access and device administration. Select two protocols commonly associated with AAA.",
+    "answerOptions": ["RADIUS", "TACACS+", "ARP", "ICMP"],
+    "correctAnswers": [0, 1],
+    "difficulty": "medium"
+  }
+]

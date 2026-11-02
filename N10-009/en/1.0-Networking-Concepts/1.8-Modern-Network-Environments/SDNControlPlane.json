@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-1.0-1.8-s-d-n-control-plane",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.8",
-  "topic": "Modern Network Environments",
-  "questionText": "In software-defined networking (SDN), what is a key role of the control plane?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Forwarding electrical signals over copper cable"
-    },
-    {
-      "id": "b",
-      "text": "Making network decisions and directing forwarding behavior"
-    },
-    {
-      "id": "c",
-      "text": "Providing physical rack mounting"
-    },
-    {
-      "id": "d",
-      "text": "Converting domain names into IP addresses only"
-    }
-  ],
-  "correctAnswers": [
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "In software-defined networking (SDN), what is a key role of the control plane?",
+    "answerOptions": [
+      "Forwarding electrical signals over copper cable",
+      "Making network decisions and directing forwarding behavior",
+      "Providing physical rack mounting",
+      "Converting domain names into IP addresses only"
+    ],
+    "correctAnswers": [1],
+    "difficulty": "medium"
+  }
+]

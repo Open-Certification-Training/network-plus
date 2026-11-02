@@ -1,30 +1,8 @@
-{
-  "questionId": "N10-009-1.0-1.6-star-topology-central-device",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.6",
-  "topic": "Network Topologies",
-  "questionText": "In which topology do endpoint devices connect to a central switch or other central device?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Bus"
-    },
-    {
-      "id": "b",
-      "text": "Ring"
-    },
-    {
-      "id": "c",
-      "text": "Star"
-    },
-    {
-      "id": "d",
-      "text": "Full mesh"
-    }
-  ],
-  "correctAnswers": [
-    "c"
-  ],
-  "difficulty": "easy"
-}
+[
+  {
+    "questionText": "In which topology do endpoint devices connect to a central switch or other central device?",
+    "answerOptions": ["Bus", "Ring", "Star", "Full mesh"],
+    "correctAnswers": [2],
+    "difficulty": "easy"
+  }
+]

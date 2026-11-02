@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-1.0-1.3-cloud-deployment-models",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.3",
-  "topic": "Cloud Concepts",
-  "questionText": "An organization wants a cloud environment dedicated to its own use, with access restricted to that organization. Which deployment model best fits?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Public cloud"
-    },
-    {
-      "id": "b",
-      "text": "Private cloud"
-    },
-    {
-      "id": "c",
-      "text": "Community Wi-Fi"
-    },
-    {
-      "id": "d",
-      "text": "Content delivery network"
-    }
-  ],
-  "correctAnswers": [
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "An organization wants a cloud environment dedicated to its own use, with access restricted to that organization. Which deployment model best fits?",
+    "answerOptions": [
+      "Public cloud",
+      "Private cloud",
+      "Community Wi-Fi",
+      "Content delivery network"
+    ],
+    "correctAnswers": [1],
+    "difficulty": "medium"
+  }
+]

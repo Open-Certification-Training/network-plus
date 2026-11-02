@@ -1,31 +1,13 @@
-{
-  "questionId": "N10-009-1.0-1.8-modern-network-technologies",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.8",
-  "topic": "Modern Network Environments",
-  "questionText": "Which TWO practices can improve consistency when managing modern network environments? Select two.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Using automation to apply repeatable configuration changes"
-    },
-    {
-      "id": "b",
-      "text": "Managing infrastructure configuration as version-controlled code"
-    },
-    {
-      "id": "c",
-      "text": "Making every change manually without documentation"
-    },
-    {
-      "id": "d",
-      "text": "Disabling monitoring to reduce management overhead"
-    }
-  ],
-  "correctAnswers": [
-    "a",
-    "b"
-  ],
-  "difficulty": "hard"
-}
+[
+  {
+    "questionText": "Which TWO practices can improve consistency when managing modern network environments? Select two.",
+    "answerOptions": [
+      "Using automation to apply repeatable configuration changes",
+      "Managing infrastructure configuration as version-controlled code",
+      "Making every change manually without documentation",
+      "Disabling monitoring to reduce management overhead"
+    ],
+    "correctAnswers": [0, 1],
+    "difficulty": "hard"
+  }
+]
