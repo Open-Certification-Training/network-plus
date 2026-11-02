@@ -17,7 +17,7 @@ Outside contributions are welcome
 
 ## Repository layout
 
-See the template repo for more infomation on how to use this dataset: https://github.com/Open-Certification-Training/template/
+See the template repo for more information on how to use this dataset: https://github.com/Open-Certification-Training/template/
 
 ## License
 Content is available for use under the MIT License.
