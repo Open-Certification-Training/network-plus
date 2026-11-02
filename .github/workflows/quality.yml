@@ -1,0 +1,102 @@
+name: Quality checks
+
+on:
+  pull_request:
+  merge_group:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quality-${{ github.event_name }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  spelling:
+    name: Spelling
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: "22"
+      - uses: crate-ci/typos@8a48f81b6c64dcfea44b3633223084c4be58ac5f # v1.49.0
+        with:
+          config: ./.github/quality/_typos.toml
+          isolated: true
+      - name: Verify spelling detects errors
+        env:
+          TYPOS_BIN: ${{ runner.temp }}/typos
+        run: npm --prefix .github/quality run test:spelling
+
+  json:
+    name: JSON validation
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: .github/quality/package-lock.json
+      - run: npm --prefix .github/quality ci --ignore-scripts
+      - run: npm --prefix .github/quality run validate:json
+
+  formatting:
+    name: JSON formatting
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: .github/quality/package-lock.json
+      - run: npm --prefix .github/quality ci --ignore-scripts
+      - run: npm --prefix .github/quality run check:json
+
+  tests:
+    name: Validator tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: .github/quality/package-lock.json
+      - run: npm --prefix .github/quality ci --ignore-scripts
+      - run: npm --prefix .github/quality test
+
+  quality-gate:
+    name: Quality gate
+    if: ${{ always() }}
+    needs: [spelling, json, formatting, tests]
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          persist-credentials: false
+      - name: Require every check to pass
+        env:
+          SPELLING_RESULT: ${{ needs.spelling.result }}
+          JSON_RESULT: ${{ needs.json.result }}
+          FORMATTING_RESULT: ${{ needs.formatting.result }}
+          TESTS_RESULT: ${{ needs.tests.result }}
+        run: bash .github/quality/scripts/quality-gate.sh

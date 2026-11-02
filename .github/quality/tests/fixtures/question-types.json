@@ -1,0 +1,23 @@
+[
+  {
+    "questionType": "multiple-choice",
+    "questionText": "What is 2 + 2?",
+    "answerOptions": ["3", "4", "5"],
+    "correctAnswers": 1,
+    "explanation": "Adding 2 and 2 gives 4."
+  },
+  {
+    "questionType": "multiple-choice",
+    "questionText": "Which numbers are even? Select all that apply.",
+    "answerOptions": ["2", "3", "4", "5"],
+    "correctAnswers": [0, 2],
+    "explanation": "2 and 4 are divisible by 2 without a remainder."
+  },
+  {
+    "questionType": "true-false",
+    "questionText": "A triangle has three sides.",
+    "answerOptions": ["True", "False"],
+    "correctAnswers": 0,
+    "explanation": "A triangle is a polygon with three sides."
+  }
+]
