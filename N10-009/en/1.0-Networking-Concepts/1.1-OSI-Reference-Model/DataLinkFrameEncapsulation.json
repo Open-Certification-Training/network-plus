@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-1.0-1.1-data-link-frame-encapsulation",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.1",
-  "topic": "OSI Reference Model",
-  "questionText": "A network interface receives a packet from the Network layer and encapsulates it for transmission across an Ethernet link. At which OSI layer does this encapsulation into a frame occur?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Physical Layer (Layer 1)"
-    },
-    {
-      "id": "b",
-      "text": "Data Link Layer (Layer 2)"
-    },
-    {
-      "id": "c",
-      "text": "Network Layer (Layer 3)"
-    },
-    {
-      "id": "d",
-      "text": "Transport Layer (Layer 4)"
-    }
-  ],
-  "correctAnswers": [
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "A network interface receives a packet from the Network layer and encapsulates it for transmission across an Ethernet link. At which OSI layer does this encapsulation into a frame occur?",
+    "answerOptions": [
+      "Physical Layer (Layer 1)",
+      "Data Link Layer (Layer 2)",
+      "Network Layer (Layer 3)",
+      "Transport Layer (Layer 4)"
+    ],
+    "correctAnswers": [1],
+    "difficulty": "medium"
+  }
+]

@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-4.0-4.3-i-d-svs-i-p-s-placement",
-  "examId": "N10-009",
-  "domainId": "4.0",
-  "objectiveId": "4.3",
-  "topic": "ids-and-ips",
-  "questionText": "Which system is designed to detect malicious network activity and can be configured to block it inline automatically?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Intrusion prevention system (IPS)"
-    },
-    {
-      "id": "b",
-      "text": "Passive network diagram"
-    },
-    {
-      "id": "c",
-      "text": "DNS resolver"
-    },
-    {
-      "id": "d",
-      "text": "Unmanaged hub"
-    }
-  ],
-  "correctAnswers": [
-    "a"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "Which system is designed to detect malicious network activity and can be configured to block it inline automatically?",
+    "answerOptions": [
+      "Intrusion prevention system (IPS)",
+      "Passive network diagram",
+      "DNS resolver",
+      "Unmanaged hub"
+    ],
+    "correctAnswers": [0],
+    "difficulty": "medium"
+  }
+]

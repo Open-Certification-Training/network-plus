@@ -1,30 +1,8 @@
-{
-  "questionId": "N10-009-1.0-1.7-private-i-pv4-address-range",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.7",
-  "topic": "IPv4 Addressing",
-  "questionText": "Which IPv4 address is within a private RFC 1918 range?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "8.8.8.8"
-    },
-    {
-      "id": "b",
-      "text": "172.20.14.5"
-    },
-    {
-      "id": "c",
-      "text": "198.51.100.7"
-    },
-    {
-      "id": "d",
-      "text": "224.0.0.5"
-    }
-  ],
-  "correctAnswers": [
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "Which IPv4 address is within a private RFC 1918 range?",
+    "answerOptions": ["8.8.8.8", "172.20.14.5", "198.51.100.7", "224.0.0.5"],
+    "correctAnswers": [1],
+    "difficulty": "medium"
+  }
+]

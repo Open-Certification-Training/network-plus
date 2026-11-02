@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Open Certification Training Project Topic Questions",
+  "description": "A nonempty array of questions about the topic named by the JSON file.",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "$ref": "#/$defs/question"
+  },
+  "$defs": {
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["questionText", "answerOptions", "correctAnswers"],
+      "properties": {
+        "questionType": {
+          "type": "string",
+          "enum": ["multiple-choice", "true-false"],
+          "description": "Optional question format. Applications treat an omitted type as multiple-choice. True-false questions have exactly two option strings and exactly one correct answer index."
+        },
+        "questionText": {
+          "$ref": "#/$defs/nonBlankText",
+          "description": "Complete question wording. Maps to Question.text in JSON-LD."
+        },
+        "answerOptions": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/nonBlankText"
+          },
+          "description": "Unique answer strings in display order. Each option is identified by its zero-based array index and maps to an Answer in suggestedAnswer."
+        },
+        "correctAnswers": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/answerIndex"
+            },
+            {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "$ref": "#/$defs/answerIndex"
+              }
+            }
+          ],
+          "description": "A zero-based option index for one correct answer, or an array of unique indexes. A one-element array is also allowed. Resolve indexes to answerOptions when generating acceptedAnswer.",
+          "$comment": "Application validation must check that every index is less than answerOptions.length. Reordering options requires updating their answer indexes."
+        },
+        "explanation": {
+          "$ref": "#/$defs/nonBlankText",
+          "description": "Explanation of why the identified answers are correct."
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["easy", "medium", "hard"],
+          "description": "Intended question difficulty."
+        },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/nonBlankText"
+          },
+          "description": "Additional categorization labels."
+        }
+      },
+      "if": {
+        "required": ["questionType"],
+        "properties": {
+          "questionType": {
+            "const": "true-false"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "answerOptions": {
+            "type": "array",
+            "maxItems": 2
+          },
+          "correctAnswers": {
+            "oneOf": [
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 1,
+                "items": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "nonBlankText": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "answerIndex": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Zero-based position in answerOptions: 0 refers to the first option."
+    }
+  }
+}

@@ -1,31 +1,13 @@
-{
-  "questionId": "N10-009-1.0-1.7-a-p-i-p-a-addressing",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.7",
-  "topic": "IPv4 Addressing",
-  "questionText": "A Windows endpoint cannot contact its DHCP server and self-assigns an IPv4 address. Which TWO observations are consistent with APIPA? Select two.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "The address is in the 169.254.0.0/16 range"
-    },
-    {
-      "id": "b",
-      "text": "The endpoint may have trouble reaching devices beyond its local link"
-    },
-    {
-      "id": "c",
-      "text": "The address is always a public address assigned by an ISP"
-    },
-    {
-      "id": "d",
-      "text": "The address proves that DNS is functioning correctly"
-    }
-  ],
-  "correctAnswers": [
-    "a",
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "A Windows endpoint cannot contact its DHCP server and self-assigns an IPv4 address. Which TWO observations are consistent with APIPA? Select two.",
+    "answerOptions": [
+      "The address is in the 169.254.0.0/16 range",
+      "The endpoint may have trouble reaching devices beyond its local link",
+      "The address is always a public address assigned by an ISP",
+      "The address proves that DNS is functioning correctly"
+    ],
+    "correctAnswers": [0, 1],
+    "difficulty": "medium"
+  }
+]

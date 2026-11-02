@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-5.0-5.3-n-t-p-time-drift-impact",
-  "examId": "N10-009",
-  "domainId": "5.0",
-  "objectiveId": "5.3",
-  "topic": "ntp-troubleshooting",
-  "questionText": "Several network devices have significantly different system times, causing certificate validation and log correlation problems. Which service should be checked?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Network Time Protocol (NTP)"
-    },
-    {
-      "id": "b",
-      "text": "Dynamic Host Configuration Protocol (DHCP)"
-    },
-    {
-      "id": "c",
-      "text": "Spanning Tree Protocol (STP)"
-    },
-    {
-      "id": "d",
-      "text": "Address Resolution Protocol (ARP)"
-    }
-  ],
-  "correctAnswers": [
-    "a"
-  ],
-  "difficulty": "easy"
-}
+[
+  {
+    "questionText": "Several network devices have significantly different system times, causing certificate validation and log correlation problems. Which service should be checked?",
+    "answerOptions": [
+      "Network Time Protocol (NTP)",
+      "Dynamic Host Configuration Protocol (DHCP)",
+      "Spanning Tree Protocol (STP)",
+      "Address Resolution Protocol (ARP)"
+    ],
+    "correctAnswers": [0],
+    "difficulty": "easy"
+  }
+]

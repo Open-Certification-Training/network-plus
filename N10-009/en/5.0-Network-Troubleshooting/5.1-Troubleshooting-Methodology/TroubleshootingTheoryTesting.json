@@ -1,31 +1,13 @@
-{
-  "questionId": "N10-009-5.0-5.1-troubleshooting-theory-testing",
-  "examId": "N10-009",
-  "domainId": "5.0",
-  "objectiveId": "5.1",
-  "topic": "hypothesis-testing",
-  "questionText": "After identifying a likely cause of a network fault, which two actions are appropriate parts of testing the theory and resolving the issue? Select two.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Test the theory in a controlled way when possible"
-    },
-    {
-      "id": "b",
-      "text": "Plan and implement an appropriate corrective action after confirming the cause"
-    },
-    {
-      "id": "c",
-      "text": "Change several unrelated settings at once without recording them"
-    },
-    {
-      "id": "d",
-      "text": "Skip verification after applying a fix"
-    }
-  ],
-  "correctAnswers": [
-    "a",
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "After identifying a likely cause of a network fault, which two actions are appropriate parts of testing the theory and resolving the issue? Select two.",
+    "answerOptions": [
+      "Test the theory in a controlled way when possible",
+      "Plan and implement an appropriate corrective action after confirming the cause",
+      "Change several unrelated settings at once without recording them",
+      "Skip verification after applying a fix"
+    ],
+    "correctAnswers": [0, 1],
+    "difficulty": "medium"
+  }
+]

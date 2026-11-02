@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-5.0-5.4-wireless-signal-interference",
-  "examId": "N10-009",
-  "domainId": "5.0",
-  "objectiveId": "5.4",
-  "topic": "wireless-performance",
-  "questionText": "Wireless users near a microwave oven experience intermittent degradation on a 2.4 GHz network, while wired users are unaffected. Which cause is most likely?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Radio-frequency interference"
-    },
-    {
-      "id": "b",
-      "text": "An IPv4 subnet mask mismatch on every wired host"
-    },
-    {
-      "id": "c",
-      "text": "A failed optical transceiver on the WAN circuit"
-    },
-    {
-      "id": "d",
-      "text": "A missing DNS PTR record"
-    }
-  ],
-  "correctAnswers": [
-    "a"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "Wireless users near a microwave oven experience intermittent degradation on a 2.4 GHz network, while wired users are unaffected. Which cause is most likely?",
+    "answerOptions": [
+      "Radio-frequency interference",
+      "An IPv4 subnet mask mismatch on every wired host",
+      "A failed optical transceiver on the WAN circuit",
+      "A missing DNS PTR record"
+    ],
+    "correctAnswers": [0],
+    "difficulty": "medium"
+  }
+]

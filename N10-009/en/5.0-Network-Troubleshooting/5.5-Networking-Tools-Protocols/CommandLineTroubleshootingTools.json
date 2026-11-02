@@ -1,31 +1,13 @@
-{
-  "questionId": "N10-009-5.0-5.5-command-line-troubleshooting-tools",
-  "examId": "N10-009",
-  "domainId": "5.0",
-  "objectiveId": "5.5",
-  "topic": "network-troubleshooting-tools",
-  "questionText": "Which two tools can help inspect DNS resolution or local TCP/IP configuration on a workstation? Select two.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "nslookup"
-    },
-    {
-      "id": "b",
-      "text": "ipconfig"
-    },
-    {
-      "id": "c",
-      "text": "A tone generator used only to trace an unpowered cable"
-    },
-    {
-      "id": "d",
-      "text": "A rack elevation diagram"
-    }
-  ],
-  "correctAnswers": [
-    "a",
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "Which two tools can help inspect DNS resolution or local TCP/IP configuration on a workstation? Select two.",
+    "answerOptions": [
+      "nslookup",
+      "ipconfig",
+      "A tone generator used only to trace an unpowered cable",
+      "A rack elevation diagram"
+    ],
+    "correctAnswers": [0, 1],
+    "difficulty": "medium"
+  }
+]

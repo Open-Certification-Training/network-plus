@@ -1,21 +1,23 @@
-# Template 
+# Network+
 
-This repository contains practice questions for the Open Training Certification Project. 
+This repository contains practice questions for the Open Training Certification Project.
 
-Exam Name: Network +
+Exam Name: CompTIA Network+
+Exam Version: N10-009
+Project Status: In Development
 
-Exam Version: ... v2026
-
-Project Status: In Development  
-
-## How to use 
-This repository is designed to be used with web or mobile app clients, such as: 
+## How to use
+This repository is designed to be used with web or mobile app clients, such as:
 - iOS: TODO Repo Link / App Store Link
 - Android: TODO Repo Link / Play Store Link
-- Web: TOOD Repo Link / Live Site Link
+- Web: TODO Repo Link / Live Site Link
 
-## Contributions 
-Outside contributions are welcome 
+## Contributions
+Outside contributions are welcome
 
-## License 
-Content is available to used under the MIT License. 
+## Repository layout
+
+See the template repo for more information on how to use this dataset: https://github.com/Open-Certification-Training/template/
+
+## License
+Content is available for use under the MIT License.

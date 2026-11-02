@@ -1,30 +1,13 @@
-{
-  "questionId": "N10-009-4.0-4.1-least-privilege-principle",
-  "examId": "N10-009",
-  "domainId": "4.0",
-  "objectiveId": "4.1",
-  "topic": "least-privilege",
-  "questionText": "Which security principle gives a user or service only the permissions needed to perform its assigned tasks?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Least privilege"
-    },
-    {
-      "id": "b",
-      "text": "Implicit trust"
-    },
-    {
-      "id": "c",
-      "text": "Open access"
-    },
-    {
-      "id": "d",
-      "text": "Maximum privilege"
-    }
-  ],
-  "correctAnswers": [
-    "a"
-  ],
-  "difficulty": "easy"
-}
+[
+  {
+    "questionText": "Which security principle gives a user or service only the permissions needed to perform its assigned tasks?",
+    "answerOptions": [
+      "Least privilege",
+      "Implicit trust",
+      "Open access",
+      "Maximum privilege"
+    ],
+    "correctAnswers": [0],
+    "difficulty": "easy"
+  }
+]

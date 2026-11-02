@@ -1,31 +1,13 @@
-{
-  "questionId": "N10-009-3.0-3.1-network-documentation-records",
-  "examId": "N10-009",
-  "domainId": "3.0",
-  "objectiveId": "3.1",
-  "topic": "documentation-and-configuration",
-  "questionText": "Which two items should commonly be maintained as part of network configuration documentation? Select two.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Current configuration backups"
-    },
-    {
-      "id": "b",
-      "text": "An up-to-date asset inventory"
-    },
-    {
-      "id": "c",
-      "text": "Personal passwords stored in an unprotected spreadsheet"
-    },
-    {
-      "id": "d",
-      "text": "Untracked changes kept only in a technician's memory"
-    }
-  ],
-  "correctAnswers": [
-    "a",
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "Which two items should commonly be maintained as part of network configuration documentation? Select two.",
+    "answerOptions": [
+      "Current configuration backups",
+      "An up-to-date asset inventory",
+      "Personal passwords stored in an unprotected spreadsheet",
+      "Untracked changes kept only in a technician's memory"
+    ],
+    "correctAnswers": [0, 1],
+    "difficulty": "medium"
+  }
+]

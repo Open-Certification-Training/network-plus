@@ -1,31 +1,13 @@
-{
-  "questionId": "N10-009-1.0-1.6-w-a-n-and-l-a-n-characteristics",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.6",
-  "topic": "Network Types",
-  "questionText": "Which TWO statements correctly describe common network types? Select two.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "A LAN typically connects devices within a limited geographic area"
-    },
-    {
-      "id": "b",
-      "text": "A WAN can connect networks across large geographic distances"
-    },
-    {
-      "id": "c",
-      "text": "A WAN must use only wireless links"
-    },
-    {
-      "id": "d",
-      "text": "A LAN always spans multiple countries"
-    }
-  ],
-  "correctAnswers": [
-    "a",
-    "b"
-  ],
-  "difficulty": "easy"
-}
+[
+  {
+    "questionText": "Which TWO statements correctly describe common network types? Select two.",
+    "answerOptions": [
+      "A LAN typically connects devices within a limited geographic area",
+      "A WAN can connect networks across large geographic distances",
+      "A WAN must use only wireless links",
+      "A LAN always spans multiple countries"
+    ],
+    "correctAnswers": [0, 1],
+    "difficulty": "easy"
+  }
+]

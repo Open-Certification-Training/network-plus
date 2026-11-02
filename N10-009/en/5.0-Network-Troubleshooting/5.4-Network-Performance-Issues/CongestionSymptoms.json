@@ -1,31 +1,13 @@
-{
-  "questionId": "N10-009-5.0-5.4-congestion-symptoms",
-  "examId": "N10-009",
-  "domainId": "5.0",
-  "objectiveId": "5.4",
-  "topic": "congestion",
-  "questionText": "Users report slow transfers during peak hours, and monitoring shows saturated uplinks with packet drops. Select two likely contributors or effects.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "Network congestion"
-    },
-    {
-      "id": "b",
-      "text": "Queue drops caused by overloaded links"
-    },
-    {
-      "id": "c",
-      "text": "An improvement in available bandwidth"
-    },
-    {
-      "id": "d",
-      "text": "A guarantee that DNS is the only fault"
-    }
-  ],
-  "correctAnswers": [
-    "a",
-    "b"
-  ],
-  "difficulty": "medium"
-}
+[
+  {
+    "questionText": "Users report slow transfers during peak hours, and monitoring shows saturated uplinks with packet drops. Select two likely contributors or effects.",
+    "answerOptions": [
+      "Network congestion",
+      "Queue drops caused by overloaded links",
+      "An improvement in available bandwidth",
+      "A guarantee that DNS is the only fault"
+    ],
+    "correctAnswers": [0, 1],
+    "difficulty": "medium"
+  }
+]

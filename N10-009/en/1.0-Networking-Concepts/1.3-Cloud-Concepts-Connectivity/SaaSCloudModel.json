@@ -1,30 +1,8 @@
-{
-  "questionId": "N10-009-1.0-1.3-saa-s-cloud-model",
-  "examId": "N10-009",
-  "domainId": "1.0",
-  "objectiveId": "1.3",
-  "topic": "Cloud Concepts",
-  "questionText": "A business accesses its email and collaboration suite through a browser. The provider manages the application and underlying infrastructure. Which cloud service model is this?",
-  "answerOptions": [
-    {
-      "id": "a",
-      "text": "IaaS"
-    },
-    {
-      "id": "b",
-      "text": "PaaS"
-    },
-    {
-      "id": "c",
-      "text": "SaaS"
-    },
-    {
-      "id": "d",
-      "text": "On-premises hosting"
-    }
-  ],
-  "correctAnswers": [
-    "c"
-  ],
-  "difficulty": "easy"
-}
+[
+  {
+    "questionText": "A business accesses its email and collaboration suite through a browser. The provider manages the application and underlying infrastructure. Which cloud service model is this?",
+    "answerOptions": ["IaaS", "PaaS", "SaaS", "On-premises hosting"],
+    "correctAnswers": [2],
+    "difficulty": "easy"
+  }
+]
