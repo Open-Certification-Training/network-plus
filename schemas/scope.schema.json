@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Domain or subsection learning scope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["@context", "@type"],
+  "anyOf": [{ "required": ["hasPart"] }, { "required": ["mentions"] }],
+  "properties": {
+    "@context": { "const": "https://schema.org" },
+    "@type": { "const": "LearningResource" },
+    "hasPart": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/skill" }
+    },
+    "mentions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/acronym" }
+    }
+  },
+  "$defs": {
+    "text": { "type": "string", "pattern": "\\S" },
+    "skill": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["@type", "name", "teaches"],
+      "properties": {
+        "@type": { "const": "LearningResource" },
+        "name": { "$ref": "#/$defs/text" },
+        "teaches": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/text" }
+        }
+      }
+    },
+    "acronym": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["@type", "name", "alternateName"],
+      "properties": {
+        "@type": { "const": "DefinedTerm" },
+        "name": { "$ref": "#/$defs/text" },
+        "alternateName": { "$ref": "#/$defs/text" },
+        "description": { "$ref": "#/$defs/text" }
+      }
+    }
+  }
+}
