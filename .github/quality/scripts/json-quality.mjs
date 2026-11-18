@@ -62,6 +62,7 @@ export async function checkRepository(root, mode) {
   }
 
   if (mode === "validate") {
+    const schema = documents.get("schema.json");
     // Read the tooling configuration without including it in reviewed content.
     let config;
     try {
@@ -70,8 +71,7 @@ export async function checkRepository(root, mode) {
       errors.push(`${configFile}: cannot load configuration: ${error.message}`);
       return { errors, changed, count: documents.size };
     }
-    if (!documents.has("schema.json"))
-      errors.push("schema.json: a valid topic schema is required");
+    if (!schema) errors.push("schema.json: a valid topic schema is required");
     const directories = config?.questionDirectories;
     if (
       !Array.isArray(directories) ||
@@ -89,18 +89,12 @@ export async function checkRepository(root, mode) {
       return { errors, changed, count: documents.size };
     }
 
-    const validators = new Map();
-    const ajv = new Ajv2020({ allErrors: true });
-    for (const file of [
-      "schema.json",
-      "schemas/scope.schema.json",
-      "schemas/teaching-notes.schema.json",
-    ]) {
-      if (!documents.has(file)) continue;
+    let validate;
+    if (schema) {
       try {
-        validators.set(file, ajv.compile(documents.get(file).data));
+        validate = new Ajv2020({ allErrors: true }).compile(schema.data);
       } catch (error) {
-        errors.push(`${file}: ${error.message}`);
+        errors.push(`schema.json: ${error.message}`);
       }
     }
 
@@ -108,22 +102,11 @@ export async function checkRepository(root, mode) {
       const topics = [...documents].filter(([file]) =>
         file.startsWith(`${directory}/`),
       );
-      if (!topics.some(([, { data }]) => Array.isArray(data))) {
+      if (topics.length === 0) {
         errors.push(`${directory}: no valid JSON topic files found`);
       }
       for (const [file, { data }] of topics) {
-        let schemaFile = "schema.json";
-        if (data?.["@type"] === "LearningResource") {
-          schemaFile = Object.hasOwn(data, "isPartOf")
-            ? "schemas/teaching-notes.schema.json"
-            : "schemas/scope.schema.json";
-        }
-        const validate = validators.get(schemaFile);
-        if (!validate) {
-          if (!documents.has(schemaFile))
-            errors.push(`${file}: missing ${schemaFile}`);
-          continue;
-        }
+        if (!validate) continue;
         if (!validate(data)) {
           for (const error of validate.errors) {
             errors.push(
@@ -132,7 +115,6 @@ export async function checkRepository(root, mode) {
           }
           continue;
         }
-        if (!Array.isArray(data)) continue;
         for (const [questionIndex, question] of data.entries()) {
           const answersAreArray = Array.isArray(question.correctAnswers);
           const indexes = answersAreArray

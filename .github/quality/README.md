@@ -9,7 +9,7 @@ npm --prefix .github/quality run check:json
 npm --prefix .github/quality test
 ```
 
-The JSON commands find the Git repository root and scan tracked and unignored JSON files outside `.github/`. Validation, formatting checks, automatic formatting, and spelling all exclude the entire `.github/` directory from reviewed content. Validation uses the root [question schema](../../schema.json) for arrays. Schema.org learning resources use the [scope schema](../../schemas/scope.schema.json) or, for topic notes with an `isPartOf` reference, the [teaching notes schema](../../schemas/teaching-notes.schema.json). The tools still load their configuration from this directory; set `questionDirectories` in [package.json](package.json) to the top-level exam folders that contain topic files.
+The JSON commands find the Git repository root and scan tracked and unignored JSON files outside `.github/`. Validation, formatting checks, automatic formatting, and spelling all exclude the entire `.github/` directory from reviewed content. Validation uses the root [schema.json](../../schema.json) for questions. The tools still load their configuration from this directory; set `questionDirectories` in [package.json](package.json) to the top-level exam folders that contain topic files.
 
 To fix JSON formatting:
 
