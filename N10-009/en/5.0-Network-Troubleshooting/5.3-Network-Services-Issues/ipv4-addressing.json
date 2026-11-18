@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org",
+  "@id": "ipv4-addressing.json",
+  "@type": "LearningResource",
+  "name": "IPv4 addressing and host configuration",
+  "isPartOf": { "@id": "scope.json" },
+  "hasPart": [
+    {
+      "@type": "LearningResource",
+      "name": "Diagnosing DHCP address pool exhaustion",
+      "about": [
+        {
+          "@id": "ipv4-addressing.json#dhcp",
+          "@type": "DefinedTerm",
+          "name": "Dynamic address allocation"
+        },
+        { "@id": "switching.json#vlan" },
+        {
+          "@id": "ipv4-addressing.json#prefix",
+          "@type": "DefinedTerm",
+          "name": "IPv4 subnet prefix"
+        }
+      ],
+      "text": "A server needs an available address in the selected pool to allocate a fresh lease to a new, unreserved client. Existing clients can remain online using valid leases after the pool fills. To distinguish exhaustion from a relay problem, check that the server received the client’s discovery and inspect availability in the pool selected for that subnet.",
+      "citation": [
+        {
+          "@type": "TechArticle",
+          "name": "RFC 2131 §4.3.1, processing DHCPDISCOVER",
+          "url": "https://www.rfc-editor.org/rfc/rfc2131.html#section-4.3.1"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Diagnosing an incorrect default gateway",
+      "about": [
+        { "@id": "routing.json#gateway" },
+        { "@id": "routing.json#route" },
+        { "@id": "ipv4-addressing.json#prefix" }
+      ],
+      "text": "For an off-link destination with no more specific host route, an IPv4 host sends the frame to its configured default gateway. It can still reach on-link peers when that gateway setting is wrong. Compare the configured next hop with the network plan, then test the intended router interface before investigating its upstream routes.",
+      "citation": [
+        {
+          "@type": "TechArticle",
+          "name": "RFC 1122 §3.3.1.1, Local/Remote Decision",
+          "url": "https://www.rfc-editor.org/rfc/rfc1122.html#section-3.3.1.1"
+        },
+        {
+          "@type": "TechArticle",
+          "name": "RFC 1122 §3.3.1.2, Gateway Selection",
+          "url": "https://www.rfc-editor.org/rfc/rfc1122.html#section-3.3.1.2"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Identifying an incorrect IPv4 address",
+      "about": [
+        { "@id": "ipv4-addressing.json#prefix" },
+        { "@id": "switching.json#vlan" },
+        { "@id": "ipv4-addressing.json#dhcp" }
+      ],
+      "text": "A syntactically valid IPv4 address can belong to a different subnet from the one assigned to the interface. Check the host address and mask against the documented prefix for its VLAN. The address source helps distinguish a static entry error from an unexpected dynamic assignment.",
+      "citation": [
+        {
+          "@type": "TechArticle",
+          "name": "RFC 1122 §3.3.1.1, Local/Remote Decision",
+          "url": "https://www.rfc-editor.org/rfc/rfc1122.html#section-3.3.1.1"
+        },
+        {
+          "@type": "TechArticle",
+          "name": "RFC 4363 §5, dot1qPvid and VLAN classification of untagged frames",
+          "url": "https://www.rfc-editor.org/rfc/rfc4363.html#section-5"
+        },
+        {
+          "@type": "TechArticle",
+          "name": "RFC 2131 §4.3.1, processing DHCPDISCOVER",
+          "url": "https://www.rfc-editor.org/rfc/rfc2131.html#section-4.3.1"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Confirming a duplicate IPv4 address",
+      "about": [
+        {
+          "@id": "ipv4-addressing.json#arp",
+          "@type": "DefinedTerm",
+          "name": "IPv4 address resolution"
+        },
+        { "@id": "ipv4-addressing.json#dhcp" }
+      ],
+      "text": "On an ordinary single LAN, an ARP packet claiming a host’s own IPv4 address from another device’s MAC address is evidence of a conflict. A host detecting a conflict can defend or relinquish the address. Identify both claimants before correcting the allocation. A single unanswered ping does not establish a duplicate.",
+      "citation": [
+        {
+          "@type": "TechArticle",
+          "name": "RFC 5227 §2.4, Ongoing Address Conflict Detection and Address Defense",
+          "url": "https://www.rfc-editor.org/rfc/rfc5227.html#section-2.4"
+        },
+        {
+          "@type": "TechArticle",
+          "name": "RFC 2131 §4.3.1, processing DHCPDISCOVER",
+          "url": "https://www.rfc-editor.org/rfc/rfc2131.html#section-4.3.1"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Diagnosing an incorrect subnet mask",
+      "about": [
+        { "@id": "ipv4-addressing.json#prefix" },
+        { "@id": "routing.json#gateway" },
+        { "@id": "ipv4-addressing.json#arp" }
+      ],
+      "text": "For example, 192.0.2.10/24 treats 192.0.2.140 as on-link. If the intended prefix is 192.0.2.0/25 and the destination is on another Ethernet segment, that host can issue unanswered ARP requests for the destination. A host configured with too narrow a prefix can instead send traffic for an intended local peer to its gateway.",
+      "citation": [
+        {
+          "@type": "TechArticle",
+          "name": "RFC 1122 §3.3.1.1, Local/Remote Decision",
+          "url": "https://www.rfc-editor.org/rfc/rfc1122.html#section-3.3.1.1"
+        }
+      ]
+    }
+  ]
+}
