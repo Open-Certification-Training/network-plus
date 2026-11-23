@@ -1,0 +1,164 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LearningResource",
+  "hasPart": [
+    {
+      "@type": "LearningResource",
+      "name": "Recognizing a Layer 2 forwarding loop",
+      "teaches": [
+        "Identify a possible switching loop from a broadcast surge and a source MAC address repeatedly learned on different ports.",
+        "Trace forwarding ports on the affected VLAN to find whether they form a closed path."
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Verifying the STP root bridge",
+      "teaches": [
+        "Predict the root bridge for one spanning-tree instance from the switches’ bridge identifiers.",
+        "Compare the elected root with the intended root and explain an unexpected forwarding path after a switch is added."
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Interpreting spanning-tree port roles and states",
+      "teaches": [
+        "Use root path costs and port roles to trace the active path and identify a redundant link held in reserve.",
+        "Determine whether a port can learn MAC addresses or forward user frames from its classic STP or RSTP state."
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Diagnosing an incorrect access VLAN",
+      "teaches": [
+        "Compare the VLAN assigned to untagged traffic on a workstation’s port with the network plan.",
+        "Use the subnet of a DHCP lease together with the port’s VLAN membership to explain why a moved workstation reaches the wrong network."
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Tracing an ACL decision",
+      "teaches": [
+        "Match an affected flow’s source, destination and service to the first applicable entry in an ordered ACL.",
+        "Use the interface, traffic direction and policy’s default action to explain a blocked flow. Confirm the matching rule with counters when available."
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Reading a routing table",
+      "teaches": [
+        "Select the most specific matching prefix for a destination in an IPv4 forwarding table and identify its next hop or egress interface.",
+        "Trace a failed flow hop by hop and identify the first routing decision that sends it away from the intended destination."
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Diagnosing default route problems",
+      "teaches": [
+        "Determine which destinations depend on the IPv4 default route when the routing table also contains specific routes.",
+        "Distinguish a missing default route from a default route with the wrong next hop by following traffic to an otherwise unmatched destination."
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Diagnosing DHCP address pool exhaustion",
+      "teaches": [
+        "Use lease statistics to determine whether a DHCP scope has an IPv4 address available for a new client.",
+        "Distinguish an exhausted pool from a relay failure using the scope's free-address count and evidence that the client's request reached the DHCP server."
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Diagnosing an incorrect default gateway",
+      "teaches": [
+        "Compare a host’s configured gateway with the intended router interface on its subnet.",
+        "Use reachability to a local peer, the intended gateway and a remote host to distinguish a host gateway error from an upstream routing failure."
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Identifying an incorrect IPv4 address",
+      "teaches": [
+        "Use the documented subnet and host assignment to identify an endpoint configured with an address from the wrong subnet.",
+        "Distinguish a mistyped static address from a valid lease for the wrong VLAN by comparing the address source, switch port and address plan."
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Confirming a duplicate IPv4 address",
+      "teaches": [
+        "Correlate a host’s address-conflict report with ARP evidence to identify two devices claiming the same IPv4 address on one link.",
+        "Use lease and static assignment records to select the conflicting assignment to correct and verify that each device has its intended address."
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Diagnosing an incorrect subnet mask",
+      "teaches": [
+        "Apply the configured mask to the host and destination addresses to predict whether the host will use a gateway.",
+        "Compare that decision with the intended prefix and identify a mask that makes a remote host appear local or a local host appear remote."
+      ]
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Access Control List",
+      "alternateName": "ACL",
+      "description": "An ordered set of rules that can permit or deny matching traffic."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Address Resolution Protocol",
+      "alternateName": "ARP",
+      "description": "The protocol an IPv4 host uses on Ethernet to find the link-layer address for an on-link next hop."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Dynamic Host Configuration Protocol",
+      "alternateName": "DHCP",
+      "description": "A protocol clients use to obtain an IP address and other network settings from a server."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Internet Protocol",
+      "alternateName": "IP",
+      "description": "The network-layer protocol that addresses and forwards packets between networks."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Internet Protocol version 4",
+      "alternateName": "IPv4",
+      "description": "The version of IP that uses 32-bit addresses."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Local Area Network",
+      "alternateName": "LAN",
+      "description": "A network connecting devices within a limited area."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Media Access Control",
+      "alternateName": "MAC",
+      "description": "The link-layer function whose addresses Ethernet switches use when forwarding frames."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Rapid Spanning Tree Protocol",
+      "alternateName": "RSTP",
+      "description": "A spanning-tree protocol that can converge quickly after a topology change."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Spanning Tree Protocol",
+      "alternateName": "STP",
+      "description": "A protocol that selects a loop-free forwarding topology across connected bridges."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Virtual Local Area Network",
+      "alternateName": "VLAN",
+      "description": "A logical Layer 2 broadcast domain on a switched network."
+    }
+  ]
+}
